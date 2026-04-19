@@ -25,6 +25,16 @@ export const categories = [
     "emoji": "🥳"
   },
   {
+    "id": "boda",
+    "title": "BODA",
+    "emoji": "👰💍"
+  },
+  {
+    "id": "graduaci-n",
+    "title": "GRADUACIÓN",
+    "emoji": "🎓"
+  },
+  {
     "id": "decoraci-n-rom-ntica-de-habitaci-n",
     "title": "HABITACIÓN ROMÁNTICA",
     "emoji": "💖"
@@ -57,1187 +67,1147 @@ export const categories = [
 ];
 
 export const productsData = {
-  "decoraciones": [
+  "boda": [
     {
       "id": 1,
+      "name": "Boda Premium - Modelo 1",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/BODA/WhatsApp Image 2026-04-15 at 1.22.36 PM.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Boda Exclusivo - Modelo 2",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/BODA/WhatsApp Image 2026-04-15 at 1.22.53 PM (2).jpeg"
+    }
+  ],
+  "decoraciones": [
+    {
+      "id": 3,
       "name": "Arco de Flores Azul y Dorado + Fondo Doble + Letrero de Luces",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/ARCO DE FLORES AZUL-DORADO + FONDO DOBLE + LETRERO DE LUCES.jpeg"
     },
     {
-      "id": 2,
+      "id": 4,
       "name": "Arco de Flores Azul y Dorado con Mobiliario Azules",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/ARCO DE FLORES AZUL-DORADO CON MOBILIARIO AZULES.jpeg"
     },
     {
-      "id": 3,
+      "id": 5,
       "name": "Arco de Flores con Mobiliario Dorado y Blanco",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/ARCO DE FLORES CON MOBILIARIO DORADO Y BLANCO.jpeg"
     },
     {
-      "id": 4,
+      "id": 6,
       "name": "Arco de Flores Rosado",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/ARCO DE FLORES ROSADO.jpeg"
     },
     {
-      "id": 5,
+      "id": 7,
       "name": "Arco de Flores Universitario",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/ARCO DE FLORES UNIVERSITARIO.jpeg"
     },
     {
-      "id": 6,
+      "id": 8,
       "name": "Arco de Globos Azul, Blanco y Dorado",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/ARCO DE GLOBOS AZUL-BLANCO-DORADO.jpeg"
     },
     {
-      "id": 7,
+      "id": 9,
       "name": "Arco de Globos con Flores Dorado y Rosado",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/ARCO DE GLOBOS CON FLORES DORADO-ROSADO.jpeg"
     },
     {
-      "id": 8,
+      "id": 10,
       "name": "Arco de Globos con Hojas Doradas",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/ARCO DE GLOBOS CON HOJAS DORADAS.jpeg"
     },
     {
-      "id": 9,
+      "id": 11,
       "name": "Arco de Globos con Letreros de Luces + Arreglo de Flores",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/ARCO DE GLOBOS CON LETREROS DE LUCES + ARREGLO DE FLORES.jpeg"
     },
     {
-      "id": 10,
+      "id": 12,
       "name": "Arco de Globos con Letreros Neón + Mobiliario Transparente",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/ARCO DE GLOBOS CON LETREROS NEÓN + MOBILIARIO TRANSPARENTE.jpeg"
     },
     {
-      "id": 11,
+      "id": 13,
       "name": "Arco de Globos Crema, Dorado y Rosado",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/ARCO DE GLOBOS CREMA-DORADO-ROSADO.jpeg"
     },
     {
-      "id": 12,
+      "id": 14,
       "name": "Arco de Globos Del Real Madrid",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/ARCO DE GLOBOS DEL REAL MADRID.jpeg"
     },
     {
-      "id": 13,
+      "id": 15,
       "name": "Arco de Globos Doble con Fondo Personalizado Rojo, Blanco y Plateado",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/ARCO DE GLOBOS DOBLE CON FONDO PERSONALIZADO ROJO-BLANCO-PLATEADO.jpeg"
     },
     {
-      "id": 14,
+      "id": 16,
       "name": "Arco de Globos Dorado con Fondo Blanco y Una Mesa",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/ARCO DE GLOBOS DORADO CON FONDO BLANCO Y UNA MESA.jpeg"
     },
     {
-      "id": 15,
+      "id": 17,
       "name": "Arco de Globos Dorado y Azul",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/ARCO DE GLOBOS DORADO-AZUL.jpeg"
     },
     {
-      "id": 16,
+      "id": 18,
       "name": "Arco de Globos Dorado, Blanco y Rosa con Mobiliario de Madera",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/ARCO DE GLOBOS DORADO-BLANCO-ROSA CON MOBILIARIO DE MADERA.jpeg"
     },
     {
-      "id": 17,
+      "id": 19,
       "name": "Arco de Globos Dorado, Blanco y Rosa con Mobiliario Dorado",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/ARCO DE GLOBOS DORADO-BLANCO-ROSA CON MOBILIARIO DORADO.jpeg"
     },
     {
-      "id": 18,
+      "id": 20,
       "name": "Arco de Globos Dorado y Blanco",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/ARCO DE GLOBOS DORADO-BLANCO.jpeg"
     },
     {
-      "id": 19,
+      "id": 21,
       "name": "Arco de Globos Dorado, Plateado y Negro",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/ARCO DE GLOBOS DORADO-PLATEADO-NEGRO.jpeg"
     },
     {
-      "id": 20,
+      "id": 22,
       "name": "Arco de Globos Dorado y Rosa con Arreglos de Flores",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/ARCO DE GLOBOS DORADO-ROSA CON ARREGLOS DE FLORES.jpeg"
     },
     {
-      "id": 21,
+      "id": 23,
       "name": "Arco de Globos Morado y Dorado",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/ARCO DE GLOBOS MORADO-DORADO.jpeg"
     },
     {
-      "id": 22,
+      "id": 24,
       "name": "Arco de Globos Negro, Dorado y Cafe",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/ARCO DE GLOBOS NEGRO-DORADO-CAFE.jpeg"
     },
     {
-      "id": 23,
+      "id": 25,
       "name": "Arco de Globos Negro y Dorado",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/ARCO DE GLOBOS NEGRO-DORADO.jpeg"
     },
     {
-      "id": 24,
+      "id": 26,
       "name": "Arco de Globos Plateado, Blanco y Rosa",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/ARCO DE GLOBOS PLATEADO-BLANCO-ROSA.jpeg"
     },
     {
-      "id": 25,
+      "id": 27,
       "name": "Arco de Globos Rojo- Dorado + Letreros de Luces + Inmobiliario Transparente",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/ARCO DE GLOBOS ROJO-  DORADO + LETREROS DE LUCES + INMOBILIARIO TRANSPARENTE.jpeg"
     },
     {
-      "id": 26,
+      "id": 28,
       "name": "Arco de Globos Rojo, Blanco y Dorado con Arreglo de Flores",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/ARCO DE GLOBOS ROJO-BLANCO-DORADO CON ARREGLO DE FLORES.jpeg"
     },
     {
-      "id": 27,
+      "id": 29,
       "name": "Arco de Globos Rosado",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/ARCO DE GLOBOS ROSADO.jpeg"
     },
     {
-      "id": 28,
+      "id": 30,
       "name": "Arco de Globos Tonos Rosados",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/ARCO DE GLOBOS TONOS ROSADOS.jpeg"
     },
     {
-      "id": 29,
+      "id": 31,
       "name": "Arco de Globos Verde y Dorado",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/ARCO DE GLOBOS VERDE-DORADO.jpeg"
     },
     {
-      "id": 30,
+      "id": 32,
       "name": "Cortinas con Globos Azules y Plateados",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/CORTINAS CON GLOBOS AZULES-PLATEADOS.jpeg"
     },
     {
-      "id": 31,
-      "name": "Globos Numéricos + Set de Globos Rosados y Transparente",
-      "price": "Desde S/ 0",
-      "image": "/Decoraciones/DECORACIÓN/DECORACIONES/GLOBOS NUMÉRICOS + SET DE GLOBOS ROSADOS Y TRANSPARENTE.jpeg"
-    },
-    {
-      "id": 32,
+      "id": 33,
       "name": "Mobiliario para Fiestas",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/MOBILIARIO PARA FIESTAS.jpeg"
     },
     {
-      "id": 33,
+      "id": 34,
       "name": "Mural de Globos",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/MURAL DE GLOBOS.jpeg"
     },
     {
-      "id": 34,
+      "id": 35,
       "name": "Parante de Globos + Arreglo de Globos",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/PARANTE DE GLOBOS + ARREGLO DE GLOBOS.jpeg"
     },
     {
-      "id": 35,
+      "id": 36,
       "name": "Parante de Globos + Cortinas con Globos Dorados y Rosados",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/PARANTE DE GLOBOS + CORTINAS CON GLOBOS DORADOS-ROSADOS.jpeg"
     },
     {
-      "id": 36,
+      "id": 37,
       "name": "Parante de Globos + Globo Personalizado",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/PARANTE DE GLOBOS + GLOBO PERSONALIZADO.jpeg"
     },
     {
-      "id": 37,
-      "name": "Parante de Globos Numérico",
-      "price": "Desde S/ 0",
-      "image": "/Decoraciones/DECORACIÓN/DECORACIONES/PARANTE DE GLOBOS NUMÉRICO.jpeg"
-    },
-    {
       "id": 38,
-      "name": "Parante de Globos Personalizado",
-      "price": "Desde S/ 0",
-      "image": "/Decoraciones/DECORACIÓN/DECORACIONES/PARANTE DE GLOBOS PERSONALIZADO.jpeg"
-    },
-    {
-      "id": 39,
       "name": "Decoraciones Premium - Modelo 1",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.25 PM (1).jpeg"
     },
     {
-      "id": 40,
+      "id": 39,
       "name": "Decoraciones Exclusivo - Modelo 2",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.25 PM (2).jpeg"
     },
     {
-      "id": 41,
+      "id": 40,
       "name": "Decoraciones Hermoso - Modelo 3",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.25 PM (3).jpeg"
     },
     {
-      "id": 42,
+      "id": 41,
       "name": "Decoraciones Especial - Modelo 4",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.26 PM (1).jpeg"
     },
     {
-      "id": 43,
+      "id": 42,
       "name": "Decoraciones Personalizado - Modelo 5",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.26 PM (2).jpeg"
     },
     {
-      "id": 44,
+      "id": 43,
       "name": "Decoraciones Moderno - Modelo 6",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.26 PM (3).jpeg"
     },
     {
-      "id": 45,
+      "id": 44,
       "name": "Decoraciones Elegante - Modelo 7",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.26 PM.jpeg"
     },
     {
-      "id": 46,
+      "id": 45,
       "name": "Decoraciones Premium - Modelo 8",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.27 PM (1).jpeg"
     },
     {
-      "id": 47,
+      "id": 46,
       "name": "Decoraciones Exclusivo - Modelo 9",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.27 PM (2).jpeg"
     },
     {
-      "id": 48,
+      "id": 47,
       "name": "Decoraciones Hermoso - Modelo 10",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.27 PM.jpeg"
     },
     {
-      "id": 49,
+      "id": 48,
       "name": "Decoraciones Especial - Modelo 11",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.28 PM (1).jpeg"
     },
     {
-      "id": 50,
+      "id": 49,
       "name": "Decoraciones Personalizado - Modelo 12",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.28 PM (2).jpeg"
     },
     {
-      "id": 51,
+      "id": 50,
       "name": "Decoraciones Moderno - Modelo 13",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.28 PM (3).jpeg"
     },
     {
-      "id": 52,
+      "id": 51,
       "name": "Decoraciones Elegante - Modelo 14",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.28 PM.jpeg"
     },
     {
-      "id": 53,
+      "id": 52,
       "name": "Decoraciones Premium - Modelo 15",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.29 PM (1).jpeg"
     },
     {
-      "id": 54,
+      "id": 53,
       "name": "Decoraciones Exclusivo - Modelo 16",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.29 PM.jpeg"
     },
     {
-      "id": 55,
+      "id": 54,
       "name": "Decoraciones Hermoso - Modelo 17",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.31 PM.jpeg"
     },
     {
-      "id": 56,
+      "id": 55,
       "name": "Decoraciones Especial - Modelo 18",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.32 PM (1).jpeg"
     },
     {
-      "id": 57,
+      "id": 56,
       "name": "Decoraciones Personalizado - Modelo 19",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.32 PM (2).jpeg"
     },
     {
-      "id": 58,
+      "id": 57,
       "name": "Decoraciones Moderno - Modelo 20",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.33 PM.jpeg"
     },
     {
-      "id": 59,
+      "id": 58,
       "name": "Decoraciones Elegante - Modelo 21",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.41 PM.jpeg"
     },
     {
-      "id": 60,
+      "id": 59,
       "name": "Decoraciones Premium - Modelo 22",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.43 PM.jpeg"
     },
     {
-      "id": 61,
+      "id": 60,
       "name": "Decoraciones Exclusivo - Modelo 23",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.44 PM.jpeg"
     },
     {
-      "id": 62,
+      "id": 61,
       "name": "Decoraciones Hermoso - Modelo 24",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.53 PM (1).jpeg"
     },
     {
-      "id": 63,
+      "id": 62,
       "name": "Decoraciones Especial - Modelo 25",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.53 PM.jpeg"
     },
     {
-      "id": 64,
+      "id": 63,
       "name": "Decoraciones Personalizado - Modelo 26",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.54 PM (1).jpeg"
     },
     {
-      "id": 65,
+      "id": 64,
       "name": "Decoraciones Moderno - Modelo 27",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.54 PM (2).jpeg"
     },
     {
-      "id": 66,
+      "id": 65,
       "name": "Decoraciones Elegante - Modelo 28",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.54 PM (3).jpeg"
     },
     {
-      "id": 67,
+      "id": 66,
       "name": "Decoraciones Premium - Modelo 29",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.54 PM (4).jpeg"
     },
     {
-      "id": 68,
+      "id": 67,
       "name": "Decoraciones Exclusivo - Modelo 30",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.54 PM.jpeg"
     },
     {
-      "id": 69,
+      "id": 68,
       "name": "Decoraciones Hermoso - Modelo 31",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.55 PM (1).jpeg"
     },
     {
-      "id": 70,
+      "id": 69,
       "name": "Decoraciones Especial - Modelo 32",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.55 PM (2).jpeg"
     },
     {
-      "id": 71,
+      "id": 70,
       "name": "Decoraciones Personalizado - Modelo 33",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.55 PM.jpeg"
     },
     {
-      "id": 72,
+      "id": 71,
       "name": "Decoraciones Moderno - Modelo 34",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.56 PM (1).jpeg"
     },
     {
-      "id": 73,
+      "id": 72,
       "name": "Decoraciones Elegante - Modelo 35",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.56 PM.jpeg"
     },
     {
-      "id": 74,
+      "id": 73,
       "name": "Decoraciones Premium - Modelo 36",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.57 PM (1).jpeg"
     },
     {
-      "id": 75,
+      "id": 74,
       "name": "Decoraciones Exclusivo - Modelo 37",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.57 PM (3).jpeg"
     },
     {
-      "id": 76,
+      "id": 75,
       "name": "Decoraciones Hermoso - Modelo 38",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.58 PM (1).jpeg"
     },
     {
-      "id": 77,
+      "id": 76,
       "name": "Decoraciones Especial - Modelo 39",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.58 PM (2).jpeg"
     },
     {
-      "id": 78,
+      "id": 77,
       "name": "Decoraciones Personalizado - Modelo 40",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.58 PM.jpeg"
     },
     {
-      "id": 79,
+      "id": 78,
       "name": "Decoraciones Moderno - Modelo 41",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.59 PM (1).jpeg"
     },
     {
-      "id": 80,
+      "id": 79,
       "name": "Decoraciones Elegante - Modelo 42",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.59 PM.jpeg"
     },
     {
-      "id": 81,
+      "id": 80,
       "name": "Decoraciones Premium - Modelo 43",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.00 PM (1).jpeg"
     },
     {
-      "id": 82,
+      "id": 81,
       "name": "Decoraciones Exclusivo - Modelo 44",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.00 PM (2).jpeg"
     },
     {
-      "id": 83,
+      "id": 82,
       "name": "Decoraciones Hermoso - Modelo 45",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.00 PM (3).jpeg"
     },
     {
-      "id": 84,
+      "id": 83,
       "name": "Decoraciones Especial - Modelo 46",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.00 PM.jpeg"
     },
     {
-      "id": 85,
+      "id": 84,
       "name": "Decoraciones Personalizado - Modelo 47",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.01 PM.jpeg"
     },
     {
-      "id": 86,
+      "id": 85,
       "name": "Decoraciones Moderno - Modelo 48",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.10 PM (3).jpeg"
     },
     {
-      "id": 87,
+      "id": 86,
       "name": "Decoraciones Elegante - Modelo 49",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.11 PM (3).jpeg"
     },
     {
-      "id": 88,
+      "id": 87,
       "name": "Decoraciones Premium - Modelo 50",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.12 PM (4).jpeg"
     },
     {
-      "id": 89,
+      "id": 88,
       "name": "Decoraciones Exclusivo - Modelo 51",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.13 PM (3).jpeg"
     },
     {
-      "id": 90,
+      "id": 89,
       "name": "Decoraciones Hermoso - Modelo 52",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.13 PM.jpeg"
     },
     {
-      "id": 91,
+      "id": 90,
       "name": "Decoraciones Especial - Modelo 53",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.14 PM (1).jpeg"
     },
     {
-      "id": 92,
+      "id": 91,
       "name": "Decoraciones Personalizado - Modelo 54",
-      "price": "Desde S/ 0",
-      "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.14 PM (2).jpeg"
-    },
-    {
-      "id": 93,
-      "name": "Decoraciones Moderno - Modelo 55",
-      "price": "Desde S/ 0",
-      "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.14 PM (3).jpeg"
-    },
-    {
-      "id": 94,
-      "name": "Decoraciones Elegante - Modelo 56",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.14 PM.jpeg"
     },
     {
-      "id": 95,
-      "name": "Decoraciones Premium - Modelo 57",
+      "id": 92,
+      "name": "Decoraciones Moderno - Modelo 55",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.15 PM (1).jpeg"
     },
     {
-      "id": 96,
-      "name": "Decoraciones Exclusivo - Modelo 58",
+      "id": 93,
+      "name": "Decoraciones Elegante - Modelo 56",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.15 PM.jpeg"
     },
     {
-      "id": 97,
-      "name": "Decoraciones Hermoso - Modelo 59",
+      "id": 94,
+      "name": "Decoraciones Premium - Modelo 57",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.16 PM (3).jpeg"
     },
     {
-      "id": 98,
-      "name": "Decoraciones Especial - Modelo 60",
+      "id": 95,
+      "name": "Decoraciones Exclusivo - Modelo 58",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.17 PM (1).jpeg"
     },
     {
-      "id": 99,
-      "name": "Decoraciones Personalizado - Modelo 61",
+      "id": 96,
+      "name": "Decoraciones Hermoso - Modelo 59",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.17 PM (2).jpeg"
     },
     {
-      "id": 100,
-      "name": "Decoraciones Moderno - Modelo 62",
+      "id": 97,
+      "name": "Decoraciones Especial - Modelo 60",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.17 PM (3).jpeg"
     },
     {
-      "id": 101,
-      "name": "Decoraciones Elegante - Modelo 63",
+      "id": 98,
+      "name": "Decoraciones Personalizado - Modelo 61",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.17 PM.jpeg"
     },
     {
-      "id": 102,
-      "name": "Decoraciones Premium - Modelo 64",
+      "id": 99,
+      "name": "Decoraciones Moderno - Modelo 62",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.18 PM (1).jpeg"
     },
     {
-      "id": 103,
-      "name": "Decoraciones Exclusivo - Modelo 65",
+      "id": 100,
+      "name": "Decoraciones Elegante - Modelo 63",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.18 PM (2).jpeg"
     },
     {
-      "id": 104,
-      "name": "Decoraciones Hermoso - Modelo 66",
+      "id": 101,
+      "name": "Decoraciones Premium - Modelo 64",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.19 PM (1).jpeg"
     },
     {
-      "id": 105,
-      "name": "Decoraciones Especial - Modelo 67",
+      "id": 102,
+      "name": "Decoraciones Exclusivo - Modelo 65",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.19 PM.jpeg"
     },
     {
-      "id": 106,
-      "name": "Decoraciones Personalizado - Modelo 68",
+      "id": 103,
+      "name": "Decoraciones Hermoso - Modelo 66",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.20 PM.jpeg"
     },
     {
-      "id": 107,
-      "name": "Decoraciones Moderno - Modelo 69",
+      "id": 104,
+      "name": "Decoraciones Especial - Modelo 67",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.21 PM (2).jpeg"
     },
     {
-      "id": 108,
-      "name": "Decoraciones Elegante - Modelo 70",
+      "id": 105,
+      "name": "Decoraciones Personalizado - Modelo 68",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.21 PM (3).jpeg"
     },
     {
-      "id": 109,
-      "name": "Decoraciones Premium - Modelo 71",
+      "id": 106,
+      "name": "Decoraciones Moderno - Modelo 69",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.22 PM (4).jpeg"
     },
     {
-      "id": 110,
-      "name": "Decoraciones Exclusivo - Modelo 72",
+      "id": 107,
+      "name": "Decoraciones Elegante - Modelo 70",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.23 PM (1).jpeg"
     },
     {
-      "id": 111,
-      "name": "Decoraciones Hermoso - Modelo 73",
+      "id": 108,
+      "name": "Decoraciones Premium - Modelo 71",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.23 PM (2).jpeg"
     },
     {
-      "id": 112,
-      "name": "Decoraciones Especial - Modelo 74",
+      "id": 109,
+      "name": "Decoraciones Exclusivo - Modelo 72",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.24 PM (1).jpeg"
     },
     {
-      "id": 113,
-      "name": "Decoraciones Personalizado - Modelo 75",
+      "id": 110,
+      "name": "Decoraciones Hermoso - Modelo 73",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.24 PM (2).jpeg"
     },
     {
-      "id": 114,
-      "name": "Decoraciones Moderno - Modelo 76",
+      "id": 111,
+      "name": "Decoraciones Especial - Modelo 74",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.24 PM (3).jpeg"
     },
     {
-      "id": 115,
-      "name": "Decoraciones Elegante - Modelo 77",
+      "id": 112,
+      "name": "Decoraciones Personalizado - Modelo 75",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.25 PM (2).jpeg"
     },
     {
-      "id": 116,
-      "name": "Decoraciones Premium - Modelo 78",
+      "id": 113,
+      "name": "Decoraciones Moderno - Modelo 76",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.25 PM (3).jpeg"
     },
     {
-      "id": 117,
-      "name": "Decoraciones Exclusivo - Modelo 79",
+      "id": 114,
+      "name": "Decoraciones Elegante - Modelo 77",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.25 PM.jpeg"
     },
     {
-      "id": 118,
-      "name": "Decoraciones Hermoso - Modelo 80",
+      "id": 115,
+      "name": "Decoraciones Premium - Modelo 78",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.26 PM (1).jpeg"
     },
     {
-      "id": 119,
-      "name": "Decoraciones Especial - Modelo 81",
+      "id": 116,
+      "name": "Decoraciones Exclusivo - Modelo 79",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.26 PM (2).jpeg"
     },
     {
-      "id": 120,
-      "name": "Decoraciones Personalizado - Modelo 82",
+      "id": 117,
+      "name": "Decoraciones Hermoso - Modelo 80",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.26 PM (3).jpeg"
     },
     {
-      "id": 121,
-      "name": "Decoraciones Moderno - Modelo 83",
+      "id": 118,
+      "name": "Decoraciones Especial - Modelo 81",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.26 PM.jpeg"
     },
     {
-      "id": 122,
-      "name": "Decoraciones Elegante - Modelo 84",
+      "id": 119,
+      "name": "Decoraciones Personalizado - Modelo 82",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.27 PM (1).jpeg"
     },
     {
-      "id": 123,
-      "name": "Decoraciones Premium - Modelo 85",
+      "id": 120,
+      "name": "Decoraciones Moderno - Modelo 83",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.27 PM (2).jpeg"
     },
     {
-      "id": 124,
-      "name": "Decoraciones Exclusivo - Modelo 86",
+      "id": 121,
+      "name": "Decoraciones Elegante - Modelo 84",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.27 PM.jpeg"
     },
     {
-      "id": 125,
-      "name": "Decoraciones Hermoso - Modelo 87",
+      "id": 122,
+      "name": "Decoraciones Premium - Modelo 85",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.28 PM (2).jpeg"
     },
     {
-      "id": 126,
-      "name": "Decoraciones Especial - Modelo 88",
+      "id": 123,
+      "name": "Decoraciones Exclusivo - Modelo 86",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.28 PM.jpeg"
     },
     {
-      "id": 127,
-      "name": "Decoraciones Personalizado - Modelo 89",
+      "id": 124,
+      "name": "Decoraciones Hermoso - Modelo 87",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.29 PM (1).jpeg"
     },
     {
-      "id": 128,
-      "name": "Decoraciones Moderno - Modelo 90",
+      "id": 125,
+      "name": "Decoraciones Especial - Modelo 88",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.29 PM (2).jpeg"
     },
     {
-      "id": 129,
-      "name": "Decoraciones Elegante - Modelo 91",
+      "id": 126,
+      "name": "Decoraciones Personalizado - Modelo 89",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.29 PM (3).jpeg"
     },
     {
-      "id": 130,
-      "name": "Decoraciones Premium - Modelo 92",
+      "id": 127,
+      "name": "Decoraciones Moderno - Modelo 90",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.29 PM.jpeg"
     },
     {
-      "id": 131,
-      "name": "Decoraciones Exclusivo - Modelo 93",
+      "id": 128,
+      "name": "Decoraciones Elegante - Modelo 91",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.30 PM (1).jpeg"
     },
     {
-      "id": 132,
-      "name": "Decoraciones Hermoso - Modelo 94",
+      "id": 129,
+      "name": "Decoraciones Premium - Modelo 92",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.30 PM (2).jpeg"
     },
     {
-      "id": 133,
-      "name": "Decoraciones Especial - Modelo 95",
+      "id": 130,
+      "name": "Decoraciones Exclusivo - Modelo 93",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.30 PM (3).jpeg"
     },
     {
-      "id": 134,
-      "name": "Decoraciones Personalizado - Modelo 96",
+      "id": 131,
+      "name": "Decoraciones Hermoso - Modelo 94",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.31 PM (1).jpeg"
     },
     {
-      "id": 135,
-      "name": "Decoraciones Moderno - Modelo 97",
+      "id": 132,
+      "name": "Decoraciones Especial - Modelo 95",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.31 PM (2).jpeg"
     },
     {
-      "id": 136,
-      "name": "Decoraciones Elegante - Modelo 98",
+      "id": 133,
+      "name": "Decoraciones Personalizado - Modelo 96",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.31 PM.jpeg"
     },
     {
-      "id": 137,
-      "name": "Decoraciones Premium - Modelo 99",
+      "id": 134,
+      "name": "Decoraciones Moderno - Modelo 97",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.32 PM (1).jpeg"
     },
     {
-      "id": 138,
-      "name": "Decoraciones Exclusivo - Modelo 100",
+      "id": 135,
+      "name": "Decoraciones Elegante - Modelo 98",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.32 PM (3).jpeg"
     },
     {
-      "id": 139,
-      "name": "Decoraciones Hermoso - Modelo 101",
+      "id": 136,
+      "name": "Decoraciones Premium - Modelo 99",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.33 PM (2).jpeg"
     },
     {
-      "id": 140,
-      "name": "Decoraciones Especial - Modelo 102",
-      "price": "Desde S/ 0",
-      "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.33 PM (3).jpeg"
-    },
-    {
-      "id": 141,
-      "name": "Decoraciones Personalizado - Modelo 103",
+      "id": 137,
+      "name": "Decoraciones Exclusivo - Modelo 100",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.33 PM.jpeg"
     },
     {
-      "id": 142,
-      "name": "Decoraciones Moderno - Modelo 104",
+      "id": 138,
+      "name": "Decoraciones Hermoso - Modelo 101",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.34 PM (1).jpeg"
     },
     {
-      "id": 143,
-      "name": "Decoraciones Elegante - Modelo 105",
+      "id": 139,
+      "name": "Decoraciones Especial - Modelo 102",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.34 PM (3).jpeg"
     },
     {
-      "id": 144,
-      "name": "Decoraciones Premium - Modelo 106",
+      "id": 140,
+      "name": "Decoraciones Personalizado - Modelo 103",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.35 PM.jpeg"
     },
     {
-      "id": 145,
-      "name": "Decoraciones Exclusivo - Modelo 107",
+      "id": 141,
+      "name": "Decoraciones Moderno - Modelo 104",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.36 PM (3).jpeg"
     },
     {
-      "id": 146,
-      "name": "Decoraciones Hermoso - Modelo 108",
+      "id": 142,
+      "name": "Decoraciones Elegante - Modelo 105",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.36 PM (4).jpeg"
     },
     {
-      "id": 147,
-      "name": "Decoraciones Especial - Modelo 109",
-      "price": "Desde S/ 0",
-      "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.36 PM.jpeg"
-    },
-    {
-      "id": 148,
-      "name": "Decoraciones Personalizado - Modelo 110",
+      "id": 143,
+      "name": "Decoraciones Premium - Modelo 106",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.37 PM (1).jpeg"
     },
     {
-      "id": 149,
-      "name": "Decoraciones Moderno - Modelo 111",
+      "id": 144,
+      "name": "Decoraciones Exclusivo - Modelo 107",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.37 PM (2).jpeg"
     },
     {
-      "id": 150,
-      "name": "Decoraciones Elegante - Modelo 112",
+      "id": 145,
+      "name": "Decoraciones Hermoso - Modelo 108",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.37 PM (3).jpeg"
     },
     {
-      "id": 151,
-      "name": "Decoraciones Premium - Modelo 113",
+      "id": 146,
+      "name": "Decoraciones Especial - Modelo 109",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.37 PM.jpeg"
     },
     {
-      "id": 152,
-      "name": "Decoraciones Exclusivo - Modelo 114",
+      "id": 147,
+      "name": "Decoraciones Personalizado - Modelo 110",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.38 PM (1).jpeg"
     },
     {
-      "id": 153,
-      "name": "Decoraciones Hermoso - Modelo 115",
+      "id": 148,
+      "name": "Decoraciones Moderno - Modelo 111",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.38 PM (2).jpeg"
     },
     {
-      "id": 154,
-      "name": "Decoraciones Especial - Modelo 116",
+      "id": 149,
+      "name": "Decoraciones Elegante - Modelo 112",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.38 PM (3).jpeg"
     },
     {
-      "id": 155,
-      "name": "Decoraciones Personalizado - Modelo 117",
+      "id": 150,
+      "name": "Decoraciones Premium - Modelo 113",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.38 PM.jpeg"
     },
     {
-      "id": 156,
-      "name": "Decoraciones Moderno - Modelo 118",
+      "id": 151,
+      "name": "Decoraciones Exclusivo - Modelo 114",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.39 PM (2).jpeg"
     },
     {
-      "id": 157,
-      "name": "Decoraciones Elegante - Modelo 119",
+      "id": 152,
+      "name": "Decoraciones Hermoso - Modelo 115",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.39 PM (3).jpeg"
     },
     {
-      "id": 158,
-      "name": "Decoraciones Premium - Modelo 120",
+      "id": 153,
+      "name": "Decoraciones Especial - Modelo 116",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.40 PM (1).jpeg"
     },
     {
-      "id": 159,
-      "name": "Decoraciones Exclusivo - Modelo 121",
+      "id": 154,
+      "name": "Decoraciones Personalizado - Modelo 117",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.40 PM (2).jpeg"
     },
     {
-      "id": 160,
-      "name": "Decoraciones Hermoso - Modelo 122",
+      "id": 155,
+      "name": "Decoraciones Moderno - Modelo 118",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.40 PM (3).jpeg"
     },
     {
-      "id": 161,
-      "name": "Decoraciones Especial - Modelo 123",
+      "id": 156,
+      "name": "Decoraciones Elegante - Modelo 119",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.40 PM.jpeg"
     },
     {
-      "id": 162,
-      "name": "Decoraciones Personalizado - Modelo 124",
-      "price": "Desde S/ 0",
-      "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.41 PM (1).jpeg"
-    },
-    {
-      "id": 163,
-      "name": "Decoraciones Moderno - Modelo 125",
+      "id": 157,
+      "name": "Decoraciones Premium - Modelo 120",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.41 PM (2).jpeg"
     },
     {
-      "id": 164,
-      "name": "Decoraciones Elegante - Modelo 126",
+      "id": 158,
+      "name": "Decoraciones Exclusivo - Modelo 121",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.41 PM (3).jpeg"
     },
     {
-      "id": 165,
-      "name": "Decoraciones Premium - Modelo 127",
+      "id": 159,
+      "name": "Decoraciones Hermoso - Modelo 122",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.41 PM.jpeg"
     },
     {
-      "id": 166,
-      "name": "Decoraciones Exclusivo - Modelo 128",
+      "id": 160,
+      "name": "Decoraciones Especial - Modelo 123",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.42 PM (1).jpeg"
     },
     {
-      "id": 167,
-      "name": "Decoraciones Hermoso - Modelo 129",
+      "id": 161,
+      "name": "Decoraciones Personalizado - Modelo 124",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.43 PM (1).jpeg"
     },
     {
-      "id": 168,
-      "name": "Decoraciones Especial - Modelo 130",
+      "id": 162,
+      "name": "Decoraciones Moderno - Modelo 125",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.43 PM (2).jpeg"
     },
     {
-      "id": 169,
-      "name": "Decoraciones Personalizado - Modelo 131",
+      "id": 163,
+      "name": "Decoraciones Elegante - Modelo 126",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.44 PM (2).jpeg"
     },
     {
-      "id": 170,
-      "name": "Decoraciones Moderno - Modelo 132",
+      "id": 164,
+      "name": "Decoraciones Premium - Modelo 127",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.44 PM.jpeg"
     },
     {
-      "id": 171,
-      "name": "Decoraciones Elegante - Modelo 133",
+      "id": 165,
+      "name": "Decoraciones Exclusivo - Modelo 128",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.45 PM (1).jpeg"
     },
     {
-      "id": 172,
-      "name": "Decoraciones Premium - Modelo 134",
+      "id": 166,
+      "name": "Decoraciones Hermoso - Modelo 129",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.45 PM (3).jpeg"
     },
     {
-      "id": 173,
-      "name": "Decoraciones Exclusivo - Modelo 135",
+      "id": 167,
+      "name": "Decoraciones Especial - Modelo 130",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.45 PM.jpeg"
     },
     {
-      "id": 174,
-      "name": "Decoraciones Hermoso - Modelo 136",
+      "id": 168,
+      "name": "Decoraciones Personalizado - Modelo 131",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.47 PM (2).jpeg"
     },
     {
-      "id": 175,
-      "name": "Decoraciones Especial - Modelo 137",
+      "id": 169,
+      "name": "Decoraciones Moderno - Modelo 132",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.47 PM.jpeg"
     },
     {
-      "id": 176,
-      "name": "Decoraciones Personalizado - Modelo 138",
+      "id": 170,
+      "name": "Decoraciones Elegante - Modelo 133",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.48 PM (1).jpeg"
     },
     {
-      "id": 177,
-      "name": "Decoraciones Moderno - Modelo 139",
+      "id": 171,
+      "name": "Decoraciones Premium - Modelo 134",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.48 PM (2).jpeg"
     },
     {
-      "id": 178,
-      "name": "Decoraciones Elegante - Modelo 140",
+      "id": 172,
+      "name": "Decoraciones Exclusivo - Modelo 135",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.48 PM.jpeg"
     },
     {
-      "id": 179,
-      "name": "Decoraciones Premium - Modelo 141",
+      "id": 173,
+      "name": "Decoraciones Hermoso - Modelo 136",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.49 PM (1).jpeg"
     },
     {
-      "id": 180,
-      "name": "Decoraciones Exclusivo - Modelo 142",
+      "id": 174,
+      "name": "Decoraciones Especial - Modelo 137",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.49 PM.jpeg"
     },
     {
-      "id": 181,
-      "name": "Decoraciones Hermoso - Modelo 143",
+      "id": 175,
+      "name": "Decoraciones Personalizado - Modelo 138",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.50 PM (1).jpeg"
     },
     {
-      "id": 182,
-      "name": "Decoraciones Especial - Modelo 144",
+      "id": 176,
+      "name": "Decoraciones Moderno - Modelo 139",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.51 PM (3).jpeg"
     },
     {
-      "id": 183,
-      "name": "Decoraciones Personalizado - Modelo 145",
+      "id": 177,
+      "name": "Decoraciones Elegante - Modelo 140",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.51 PM (4).jpeg"
     },
     {
-      "id": 184,
-      "name": "Decoraciones Moderno - Modelo 146",
+      "id": 178,
+      "name": "Decoraciones Premium - Modelo 141",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.51 PM.jpeg"
     },
     {
-      "id": 185,
-      "name": "Decoraciones Elegante - Modelo 147",
+      "id": 179,
+      "name": "Decoraciones Exclusivo - Modelo 142",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.52 PM (1).jpeg"
     },
     {
-      "id": 186,
-      "name": "Decoraciones Premium - Modelo 148",
+      "id": 180,
+      "name": "Decoraciones Hermoso - Modelo 143",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.52 PM (2).jpeg"
     },
     {
-      "id": 187,
-      "name": "Decoraciones Exclusivo - Modelo 149",
+      "id": 181,
+      "name": "Decoraciones Especial - Modelo 144",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.52 PM.jpeg"
     },
     {
-      "id": 188,
-      "name": "Decoraciones Hermoso - Modelo 150",
+      "id": 182,
+      "name": "Decoraciones Personalizado - Modelo 145",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.53 PM (1).jpeg"
     },
     {
-      "id": 189,
-      "name": "Decoraciones Especial - Modelo 151",
-      "price": "Desde S/ 0",
-      "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.53 PM (2).jpeg"
-    },
-    {
-      "id": 190,
-      "name": "Decoraciones Personalizado - Modelo 152",
+      "id": 183,
+      "name": "Decoraciones Moderno - Modelo 146",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.53 PM.jpeg"
     },
     {
-      "id": 191,
-      "name": "Decoraciones Moderno - Modelo 153",
+      "id": 184,
+      "name": "Decoraciones Elegante - Modelo 147",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.54 PM.jpeg"
     },
     {
-      "id": 192,
-      "name": "Decoraciones Elegante - Modelo 154",
+      "id": 185,
+      "name": "Decoraciones Premium - Modelo 148",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.55 PM (1).jpeg"
     },
     {
-      "id": 193,
-      "name": "Decoraciones Premium - Modelo 155",
+      "id": 186,
+      "name": "Decoraciones Exclusivo - Modelo 149",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.55 PM (2).jpeg"
     },
     {
-      "id": 194,
-      "name": "Decoraciones Exclusivo - Modelo 156",
+      "id": 187,
+      "name": "Decoraciones Hermoso - Modelo 150",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.55 PM.jpeg"
     },
     {
-      "id": 195,
-      "name": "Decoraciones Hermoso - Modelo 157",
+      "id": 188,
+      "name": "Decoraciones Especial - Modelo 151",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.56 PM.jpeg"
     }
   ],
   "muro-shimmer-con-arco-de-globos-y-mobiliario": [
     {
-      "id": 196,
+      "id": 189,
       "name": "Arco de Globos Negro, Blanco y Dorado + Fondo Doble + Letrero de Luces",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/ARCOS DE GLOBOS Y MOBILIARIO/MURO SHIMMER con ARCO DE Globos y Mobiliario/ARCO DE GLOBOS NEGRO-BLANCO-DORADO + FONDO DOBLE + LETRERO DE LUCES.jpeg"
     },
     {
-      "id": 197,
+      "id": 190,
       "name": "Arco de Globos y Fondo Personalizado Doble con Letrero de Luces y Mobiliario Personalizado",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/ARCOS DE GLOBOS Y MOBILIARIO/MURO SHIMMER con ARCO DE Globos y Mobiliario/ARCO DE GLOBOS Y FONDO PERSONALIZADO DOBLE CON LETRERO DE LUCES Y MOBILIARIO PERSONALIZADO.jpeg"
@@ -1305,87 +1275,93 @@ export const productsData = {
   ],
   "babyshower": [
     {
-      "id": 198,
+      "id": 191,
       "name": "Mobiliario Rosa y Blanco Tematica de Bebé",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/BABYSHOWER/MOBILIARIO ROSA Y BLANCO TEMATICA DE BEBÉ.jpeg"
     },
     {
-      "id": 199,
+      "id": 192,
       "name": "Babyshower Premium - Modelo 1",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/BABYSHOWER/WhatsApp Image 2026-04-15 at 1.21.57 PM.jpeg"
     },
     {
-      "id": 200,
+      "id": 193,
       "name": "Babyshower Exclusivo - Modelo 2",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/BABYSHOWER/WhatsApp Image 2026-04-15 at 1.22.11 PM (1).jpeg"
     },
     {
-      "id": 201,
+      "id": 194,
       "name": "Babyshower Hermoso - Modelo 3",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/BABYSHOWER/WhatsApp Image 2026-04-15 at 1.22.12 PM (3).jpeg"
     },
     {
-      "id": 202,
+      "id": 195,
       "name": "Babyshower Especial - Modelo 4",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/BABYSHOWER/WhatsApp Image 2026-04-15 at 1.22.15 PM (2).jpeg"
     },
     {
-      "id": 203,
+      "id": 196,
       "name": "Babyshower Personalizado - Modelo 5",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/BABYSHOWER/WhatsApp Image 2026-04-15 at 1.22.15 PM (3).jpeg"
     },
     {
-      "id": 204,
+      "id": 197,
       "name": "Babyshower Moderno - Modelo 6",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/BABYSHOWER/WhatsApp Image 2026-04-15 at 1.22.24 PM.jpeg"
     },
     {
-      "id": 205,
+      "id": 198,
       "name": "Babyshower Elegante - Modelo 7",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/BABYSHOWER/WhatsApp Image 2026-04-15 at 1.22.25 PM (1).jpeg"
     },
     {
-      "id": 206,
+      "id": 199,
       "name": "Babyshower Premium - Modelo 8",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/BABYSHOWER/WhatsApp Image 2026-04-15 at 1.22.27 PM (3).jpeg"
+    },
+    {
+      "id": 200,
+      "name": "Babyshower Exclusivo - Modelo 9",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/BABYSHOWER/WhatsApp Image 2026-04-15 at 1.22.33 PM (3).jpeg"
     }
   ],
   "bautizos": [
     {
-      "id": 207,
+      "id": 201,
       "name": "Arco de Globos + Arreglo de Flores Bautizo",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/Bautizos/ARCO DE GLOBOS + ARREGLO DE FLORES BAUTIZO.jpeg"
     },
     {
-      "id": 208,
+      "id": 202,
       "name": "Arco de Globos Celeste y Blanco",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/Bautizos/ARCO DE GLOBOS CELESTE-BLANCO.jpeg"
     },
     {
-      "id": 209,
+      "id": 203,
       "name": "Arco de Globos Rosado y Bautizo",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/Bautizos/ARCO DE GLOBOS ROSADO-BAUTIZO.jpeg"
     },
     {
-      "id": 210,
+      "id": 204,
       "name": "Bautizo",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/Bautizos/BAUTIZO.jpeg"
     },
     {
-      "id": 211,
+      "id": 205,
       "name": "Bautizos Premium - Modelo 1",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/Bautizos/WhatsApp Image 2026-04-15 at 1.22.51 PM (1).jpeg"
@@ -1393,165 +1369,177 @@ export const productsData = {
   ],
   "fiesta-infantil": [
     {
-      "id": 212,
+      "id": 206,
       "name": "Arco de Flores y Fondo Doble Blanco, Rosa y Dorado",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/FIESTA INFANTIL/ARCO DE FLORES Y FONDO DOBLE BLANCO-ROSA-DORADO.jpeg"
     },
     {
-      "id": 213,
+      "id": 207,
       "name": "Arco de Globos + Mobiliario de Stitch",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/FIESTA INFANTIL/ARCO DE GLOBOS + MOBILIARIO DE STITCH.jpeg"
     },
     {
-      "id": 214,
+      "id": 208,
       "name": "Arco de Globos Hello Kitty",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/FIESTA INFANTIL/ARCO DE GLOBOS HELLO KITTY.jpeg"
     },
     {
-      "id": 215,
+      "id": 209,
       "name": "Decoración con Globos de Princesa",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/FIESTA INFANTIL/DECORACIÓN CON GLOBOS DE PRINCESA.jpeg"
     },
     {
-      "id": 216,
+      "id": 210,
       "name": "Paw Patrol",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/FIESTA INFANTIL/PAW PATROL.jpeg"
     },
     {
-      "id": 217,
+      "id": 211,
       "name": "Fiesta Infantil Premium - Modelo 1",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/FIESTA INFANTIL/WhatsApp Image 2026-04-15 at 1.21.25 PM.jpeg"
     },
     {
-      "id": 218,
+      "id": 212,
       "name": "Fiesta Infantil Exclusivo - Modelo 2",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/FIESTA INFANTIL/WhatsApp Image 2026-04-15 at 1.22.13 PM (1).jpeg"
     },
     {
-      "id": 219,
+      "id": 213,
       "name": "Fiesta Infantil Hermoso - Modelo 3",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/FIESTA INFANTIL/WhatsApp Image 2026-04-15 at 1.22.14 PM (2).jpeg"
+    },
+    {
+      "id": 214,
+      "name": "Fiesta Infantil Especial - Modelo 4",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/FIESTA INFANTIL/WhatsApp Image 2026-04-15 at 1.22.14 PM (3).jpeg"
+    },
+    {
+      "id": 215,
+      "name": "Fiesta Infantil Personalizado - Modelo 5",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/FIESTA INFANTIL/WhatsApp Image 2026-04-15 at 1.22.22 PM (3).jpeg"
     },
     {
-      "id": 220,
-      "name": "Fiesta Infantil Especial - Modelo 4",
+      "id": 216,
+      "name": "Fiesta Infantil Moderno - Modelo 6",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/FIESTA INFANTIL/WhatsApp Image 2026-04-15 at 1.22.22 PM.jpeg"
     },
     {
-      "id": 221,
-      "name": "Fiesta Infantil Personalizado - Modelo 5",
+      "id": 217,
+      "name": "Fiesta Infantil Elegante - Modelo 7",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/FIESTA INFANTIL/WhatsApp Image 2026-04-15 at 1.22.23 PM.jpeg"
     },
     {
-      "id": 222,
-      "name": "Fiesta Infantil Moderno - Modelo 6",
+      "id": 218,
+      "name": "Fiesta Infantil Premium - Modelo 8",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/FIESTA INFANTIL/WhatsApp Image 2026-04-15 at 1.22.28 PM (1).jpeg"
     },
     {
-      "id": 223,
-      "name": "Fiesta Infantil Elegante - Modelo 7",
+      "id": 219,
+      "name": "Fiesta Infantil Exclusivo - Modelo 9",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/FIESTA INFANTIL/WhatsApp Image 2026-04-15 at 1.22.31 PM (3).jpeg"
     },
     {
-      "id": 224,
-      "name": "Fiesta Infantil Premium - Modelo 8",
+      "id": 220,
+      "name": "Fiesta Infantil Hermoso - Modelo 10",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/FIESTA INFANTIL/WhatsApp Image 2026-04-15 at 1.22.32 PM.jpeg"
     },
     {
-      "id": 225,
-      "name": "Fiesta Infantil Exclusivo - Modelo 9",
+      "id": 221,
+      "name": "Fiesta Infantil Especial - Modelo 11",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/FIESTA INFANTIL/WhatsApp Image 2026-04-15 at 1.22.33 PM (1).jpeg"
     },
     {
-      "id": 226,
-      "name": "Fiesta Infantil Hermoso - Modelo 10",
+      "id": 222,
+      "name": "Fiesta Infantil Personalizado - Modelo 12",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/FIESTA INFANTIL/WhatsApp Image 2026-04-15 at 1.22.34 PM (2).jpeg"
     },
     {
-      "id": 227,
-      "name": "Fiesta Infantil Especial - Modelo 11",
+      "id": 223,
+      "name": "Fiesta Infantil Moderno - Modelo 13",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/FIESTA INFANTIL/WhatsApp Image 2026-04-15 at 1.22.36 PM (2).jpeg"
     },
     {
-      "id": 228,
-      "name": "Fiesta Infantil Personalizado - Modelo 12",
+      "id": 224,
+      "name": "Fiesta Infantil Elegante - Modelo 14",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/FIESTA INFANTIL/WhatsApp Image 2026-04-15 at 1.22.39 PM (1).jpeg"
     },
     {
-      "id": 229,
-      "name": "Fiesta Infantil Moderno - Modelo 13",
+      "id": 225,
+      "name": "Fiesta Infantil Premium - Modelo 15",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/FIESTA INFANTIL/WhatsApp Image 2026-04-15 at 1.22.43 PM (3).jpeg"
     },
     {
-      "id": 230,
-      "name": "Fiesta Infantil Elegante - Modelo 14",
+      "id": 226,
+      "name": "Fiesta Infantil Exclusivo - Modelo 16",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/FIESTA INFANTIL/WhatsApp Image 2026-04-15 at 1.22.46 PM (1).jpeg"
     },
     {
-      "id": 231,
-      "name": "Fiesta Infantil Premium - Modelo 15",
+      "id": 227,
+      "name": "Fiesta Infantil Hermoso - Modelo 17",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN DE EVENTOS/DECORACIÓN TEMÁTICA/FIESTA INFANTIL/WhatsApp Image 2026-04-15 at 1.22.51 PM (2).jpeg"
     }
   ],
   "decoraci-n-rom-ntica-de-habitaci-n": [
     {
-      "id": 232,
+      "id": 228,
       "name": "Decoración de Globos y Petalos de Rosa Azul y Plateado",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN ROMÁNTICA DE HABITACIÓN/DECORACIÓN DE GLOBOS Y PETALOS DE ROSA AZUL-PLATEADO.jpeg"
     },
     {
-      "id": 233,
+      "id": 229,
       "name": "Decoración Romántica De Habitación Premium - Modelo 1",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN ROMÁNTICA DE HABITACIÓN/WhatsApp Image 2026-04-15 at 1.22.12 PM (2).jpeg"
     },
     {
-      "id": 234,
+      "id": 230,
       "name": "Decoración Romántica De Habitación Exclusivo - Modelo 2",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN ROMÁNTICA DE HABITACIÓN/WhatsApp Image 2026-04-15 at 1.22.13 PM (2).jpeg"
     },
     {
-      "id": 235,
+      "id": 231,
       "name": "Decoración Romántica De Habitación Hermoso - Modelo 3",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN ROMÁNTICA DE HABITACIÓN/WhatsApp Image 2026-04-15 at 1.22.16 PM (1).jpeg"
     },
     {
-      "id": 236,
+      "id": 232,
       "name": "Decoración Romántica De Habitación Especial - Modelo 4",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN ROMÁNTICA DE HABITACIÓN/WhatsApp Image 2026-04-15 at 1.22.18 PM.jpeg"
     },
     {
-      "id": 237,
+      "id": 233,
       "name": "Decoración Romántica De Habitación Personalizado - Modelo 5",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN ROMÁNTICA DE HABITACIÓN/WhatsApp Image 2026-04-15 at 1.22.19 PM (2).jpeg"
     },
     {
-      "id": 238,
+      "id": 234,
       "name": "Decoración Romántica De Habitación Moderno - Modelo 6",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DECORACIÓN ROMÁNTICA DE HABITACIÓN/WhatsApp Image 2026-04-15 at 1.22.21 PM.jpeg"
@@ -1559,97 +1547,97 @@ export const productsData = {
   ],
   "detalles-personalizados": [
     {
-      "id": 239,
+      "id": 235,
       "name": "Arreglo de Panda con",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DETALLES PERSONALIZADOS/ARREGLO DE PANDA CON.jpeg"
     },
     {
-      "id": 244,
+      "id": 240,
       "name": "Detalles Personalizados Premium - Modelo 1",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DETALLES PERSONALIZADOS/WhatsApp Image 2026-04-15 at 1.21.21 PM.jpeg"
     },
     {
-      "id": 245,
+      "id": 241,
       "name": "Detalles Personalizados Exclusivo - Modelo 2",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DETALLES PERSONALIZADOS/WhatsApp Image 2026-04-15 at 1.21.22 PM (2).jpeg"
     },
     {
-      "id": 246,
+      "id": 242,
       "name": "Detalles Personalizados Hermoso - Modelo 3",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DETALLES PERSONALIZADOS/WhatsApp Image 2026-04-15 at 1.21.22 PM (3).jpeg"
     },
     {
-      "id": 247,
+      "id": 243,
       "name": "Detalles Personalizados Especial - Modelo 4",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DETALLES PERSONALIZADOS/WhatsApp Image 2026-04-15 at 1.21.22 PM.jpeg"
     },
     {
-      "id": 248,
+      "id": 244,
       "name": "Detalles Personalizados Personalizado - Modelo 5",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DETALLES PERSONALIZADOS/WhatsApp Image 2026-04-15 at 1.21.23 PM (1).jpeg"
     },
     {
-      "id": 249,
+      "id": 245,
       "name": "Detalles Personalizados Moderno - Modelo 6",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DETALLES PERSONALIZADOS/WhatsApp Image 2026-04-15 at 1.21.23 PM.jpeg"
     },
     {
-      "id": 250,
+      "id": 246,
       "name": "Detalles Personalizados Elegante - Modelo 7",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DETALLES PERSONALIZADOS/WhatsApp Image 2026-04-15 at 1.21.24 PM (1).jpeg"
     },
     {
-      "id": 251,
+      "id": 247,
       "name": "Detalles Personalizados Premium - Modelo 8",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DETALLES PERSONALIZADOS/WhatsApp Image 2026-04-15 at 1.21.24 PM (2).jpeg"
     },
     {
-      "id": 252,
+      "id": 248,
       "name": "Detalles Personalizados Exclusivo - Modelo 9",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DETALLES PERSONALIZADOS/WhatsApp Image 2026-04-15 at 1.21.24 PM (3).jpeg"
     },
     {
-      "id": 253,
+      "id": 249,
       "name": "Detalles Personalizados Hermoso - Modelo 10",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DETALLES PERSONALIZADOS/WhatsApp Image 2026-04-15 at 1.21.24 PM (4).jpeg"
     },
     {
-      "id": 254,
+      "id": 250,
       "name": "Detalles Personalizados Especial - Modelo 11",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DETALLES PERSONALIZADOS/WhatsApp Image 2026-04-15 at 1.21.24 PM.jpeg"
     },
     {
-      "id": 255,
+      "id": 251,
       "name": "Detalles Personalizados Personalizado - Modelo 12",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DETALLES PERSONALIZADOS/WhatsApp Image 2026-04-15 at 1.22.56 PM (1).jpeg"
     },
     {
-      "id": 256,
+      "id": 252,
       "name": "Detalles Personalizados Moderno - Modelo 13",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DETALLES PERSONALIZADOS/WhatsApp Image 2026-04-15 at 1.22.57 PM (1).jpeg"
     },
     {
-      "id": 257,
+      "id": 253,
       "name": "Detalles Personalizados Elegante - Modelo 14",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DETALLES PERSONALIZADOS/WhatsApp Image 2026-04-15 at 1.22.57 PM.jpeg"
     },
     {
-      "id": 258,
+      "id": 254,
       "name": "Detalles Personalizados Premium - Modelo 15",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DETALLES PERSONALIZADOS/WhatsApp Image 2026-04-15 at 1.22.58 PM.jpeg"
@@ -1657,25 +1645,25 @@ export const productsData = {
   ],
   "box-de-regalo": [
     {
-      "id": 240,
+      "id": 236,
       "name": "Box De Regalo Premium - Modelo 1",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DETALLES PERSONALIZADOS/Box de regalo/WhatsApp Image 2026-04-15 at 1.21.22 PM (3).jpeg"
     },
     {
-      "id": 241,
+      "id": 237,
       "name": "Box De Regalo Exclusivo - Modelo 2",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DETALLES PERSONALIZADOS/Box de regalo/WhatsApp Image 2026-04-15 at 1.21.23 PM.jpeg"
     },
     {
-      "id": 242,
+      "id": 238,
       "name": "Box De Regalo Hermoso - Modelo 3",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DETALLES PERSONALIZADOS/Box de regalo/WhatsApp Image 2026-04-15 at 1.21.24 PM (3).jpeg"
     },
     {
-      "id": 243,
+      "id": 239,
       "name": "Box De Regalo Especial - Modelo 4",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/DETALLES PERSONALIZADOS/Box de regalo/WhatsApp Image 2026-04-15 at 1.22.58 PM.jpeg"
@@ -1683,100 +1671,124 @@ export const productsData = {
   ],
   "globos-con-helio": [
     {
-      "id": 259,
+      "id": 255,
       "name": "Globo Numérico + Set de Globos Morados + Globo Transparente con Helio",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/GLOBOS CON HELIO/GLOBO NUMÉRICO + SET DE GLOBOS MORADOS + GLOBO TRANSPARENTE CON HELIO.jpeg"
     },
     {
-      "id": 260,
+      "id": 256,
       "name": "Globos Numéricos + Set de Globos Dorados y Rosados con Helio",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/GLOBOS CON HELIO/GLOBOS NUMÉRICOS + SET DE GLOBOS DORADOS Y ROSADOS CON HELIO.jpeg"
     },
     {
-      "id": 261,
+      "id": 257,
       "name": "Globos Numéricos + Set de Globos Morados con Helio",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/GLOBOS CON HELIO/GLOBOS NUMÉRICOS + SET DE GLOBOS MORADOS CON HELIO.jpeg"
     },
     {
-      "id": 262,
+      "id": 258,
       "name": "Globos Numéricos + Set de Globos Plateados con Helio",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/GLOBOS CON HELIO/GLOBOS NUMÉRICOS + SET DE GLOBOS PLATEADOS CON HELIO.jpeg"
     },
     {
-      "id": 263,
+      "id": 259,
       "name": "Globos Numéricos + Set de Globos Rosado con Helio",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/GLOBOS CON HELIO/GLOBOS NUMÉRICOS + SET DE GLOBOS ROSADO CON HELIO.jpeg"
     },
     {
-      "id": 264,
+      "id": 260,
+      "name": "Globos Numéricos + Set de Globos Rosados y Transparente",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/GLOBOS CON HELIO/GLOBOS NUMÉRICOS + SET DE GLOBOS ROSADOS Y TRANSPARENTE.jpeg"
+    },
+    {
+      "id": 261,
       "name": "Parante de Globo Numérico + Globos con Helio Rosado y Morado",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/GLOBOS CON HELIO/PARANTE DE GLOBO NUMÉRICO + GLOBOS CON HELIO ROSADO-MORADO.jpeg"
     },
     {
-      "id": 265,
+      "id": 262,
       "name": "Parante de Globos + Globo Numérico con Helio",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/GLOBOS CON HELIO/PARANTE DE GLOBOS + GLOBO NUMÉRICO CON HELIO.jpeg"
     },
     {
-      "id": 266,
+      "id": 263,
+      "name": "Parante de Globos Numérico",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/GLOBOS CON HELIO/PARANTE DE GLOBOS NUMÉRICO.jpeg"
+    },
+    {
+      "id": 264,
       "name": "Parante de Globos Númerico + Globos con Helio Azul y Plateado",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/GLOBOS CON HELIO/PARANTE DE GLOBOS NÚMERICO + GLOBOS CON HELIO AZUL-PLATEADO.jpeg"
     },
     {
-      "id": 267,
+      "id": 265,
+      "name": "Parante de Globos Personalizado",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/GLOBOS CON HELIO/PARANTE DE GLOBOS PERSONALIZADO.jpeg"
+    },
+    {
+      "id": 266,
       "name": "Set de Globos con Helio + Globo Burbuja Azul",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/GLOBOS CON HELIO/SET DE GLOBOS CON HELIO + GLOBO BURBUJA AZUL.jpeg"
     },
     {
-      "id": 268,
+      "id": 267,
       "name": "Set de Globos con Helio Dorado y Melon + Globo Transparente",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/GLOBOS CON HELIO/SET DE GLOBOS CON HELIO DORADO-MELON+ GLOBO TRANSPARENTE.jpeg"
     },
     {
-      "id": 269,
+      "id": 268,
       "name": "Set de Globos con Helio Dorado y Rosado + Globo Burbuja",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/GLOBOS CON HELIO/SET DE GLOBOS CON HELIO DORADO-ROSADO + GLOBO BURBUJA.jpeg"
     },
     {
-      "id": 270,
+      "id": 269,
       "name": "Set de Globos con Helio Morados + + Globo Burbuja",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/GLOBOS CON HELIO/SET DE GLOBOS CON HELIO MORADOS+  + GLOBO BURBUJA.jpeg"
     },
     {
-      "id": 271,
+      "id": 270,
       "name": "Set de Globos con Helio",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/GLOBOS CON HELIO/SET DE GLOBOS CON HELIO.jpeg"
     },
     {
-      "id": 272,
+      "id": 271,
       "name": "Set de Globos de Estrellas y Corazones + Globo Burbuja con Helio",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/GLOBOS CON HELIO/SET DE GLOBOS DE ESTRELLAS Y CORAZONES  + GLOBO BURBUJA CON HELIO.jpeg"
     },
     {
-      "id": 273,
+      "id": 272,
       "name": "Set de Globos Número + Corazones con Helio",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/GLOBOS CON HELIO/SET DE GLOBOS NÚMERO + CORAZONES CON HELIO.jpeg"
     },
     {
-      "id": 274,
+      "id": 273,
       "name": "Set de Globos Número + Estrellas con Helio",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/GLOBOS CON HELIO/SET DE GLOBOS NÚMERO + ESTRELLAS CON HELIO.jpeg"
+    },
+    {
+      "id": 274,
+      "name": "Globos Con Helio Premium - Modelo 1",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/GLOBOS CON HELIO/WhatsApp Image 2026-04-15 at 1.22.41 PM (1).jpeg"
     }
   ],
   "ramos": [
@@ -1809,6 +1821,594 @@ export const productsData = {
       "name": "Ramos Exclusivo - Modelo 2",
       "price": "Desde S/ 0",
       "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-15 at 1.22.57 PM (3).jpeg"
+    },
+    {
+      "id": 292,
+      "name": "Ramos Hermoso - Modelo 3",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.32 (1).jpeg"
+    },
+    {
+      "id": 293,
+      "name": "Ramos Especial - Modelo 4",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.32.jpeg"
+    },
+    {
+      "id": 294,
+      "name": "Ramos Personalizado - Modelo 5",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.33 (1).jpeg"
+    },
+    {
+      "id": 295,
+      "name": "Ramos Moderno - Modelo 6",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.33.jpeg"
+    },
+    {
+      "id": 296,
+      "name": "Ramos Elegante - Modelo 7",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.34 (1).jpeg"
+    },
+    {
+      "id": 297,
+      "name": "Ramos Premium - Modelo 8",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.34.jpeg"
+    },
+    {
+      "id": 298,
+      "name": "Ramos Exclusivo - Modelo 9",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.35 (1).jpeg"
+    },
+    {
+      "id": 299,
+      "name": "Ramos Hermoso - Modelo 10",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.35.jpeg"
+    },
+    {
+      "id": 300,
+      "name": "Ramos Especial - Modelo 11",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.36.jpeg"
+    },
+    {
+      "id": 301,
+      "name": "Ramos Personalizado - Modelo 12",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.37 (1).jpeg"
+    },
+    {
+      "id": 302,
+      "name": "Ramos Moderno - Modelo 13",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.37.jpeg"
+    },
+    {
+      "id": 303,
+      "name": "Ramos Elegante - Modelo 14",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.38 (1).jpeg"
+    },
+    {
+      "id": 304,
+      "name": "Ramos Premium - Modelo 15",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.38.jpeg"
+    },
+    {
+      "id": 305,
+      "name": "Ramos Exclusivo - Modelo 16",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.39 (1).jpeg"
+    },
+    {
+      "id": 306,
+      "name": "Ramos Hermoso - Modelo 17",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.39.jpeg"
+    },
+    {
+      "id": 307,
+      "name": "Ramos Especial - Modelo 18",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.40 (1).jpeg"
+    },
+    {
+      "id": 308,
+      "name": "Ramos Personalizado - Modelo 19",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.40.jpeg"
+    },
+    {
+      "id": 309,
+      "name": "Ramos Moderno - Modelo 20",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.41 (1).jpeg"
+    },
+    {
+      "id": 310,
+      "name": "Ramos Elegante - Modelo 21",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.41.jpeg"
+    },
+    {
+      "id": 311,
+      "name": "Ramos Premium - Modelo 22",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.42 (1).jpeg"
+    },
+    {
+      "id": 312,
+      "name": "Ramos Exclusivo - Modelo 23",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.42.jpeg"
+    },
+    {
+      "id": 313,
+      "name": "Ramos Hermoso - Modelo 24",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.43.jpeg"
+    },
+    {
+      "id": 314,
+      "name": "Ramos Especial - Modelo 25",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.44 (1).jpeg"
+    },
+    {
+      "id": 315,
+      "name": "Ramos Personalizado - Modelo 26",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.44.jpeg"
+    },
+    {
+      "id": 316,
+      "name": "Ramos Moderno - Modelo 27",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.45 (1).jpeg"
+    },
+    {
+      "id": 317,
+      "name": "Ramos Elegante - Modelo 28",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.45.jpeg"
+    },
+    {
+      "id": 318,
+      "name": "Ramos Premium - Modelo 29",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.46 (1).jpeg"
+    },
+    {
+      "id": 319,
+      "name": "Ramos Exclusivo - Modelo 30",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.46.jpeg"
+    },
+    {
+      "id": 320,
+      "name": "Ramos Hermoso - Modelo 31",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.47 (1).jpeg"
+    },
+    {
+      "id": 321,
+      "name": "Ramos Especial - Modelo 32",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.47.jpeg"
+    },
+    {
+      "id": 322,
+      "name": "Ramos Personalizado - Modelo 33",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.48 (1).jpeg"
+    },
+    {
+      "id": 323,
+      "name": "Ramos Moderno - Modelo 34",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.48.jpeg"
+    },
+    {
+      "id": 324,
+      "name": "Ramos Elegante - Modelo 35",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.49 (1).jpeg"
+    },
+    {
+      "id": 325,
+      "name": "Ramos Premium - Modelo 36",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.49.jpeg"
+    },
+    {
+      "id": 326,
+      "name": "Ramos Exclusivo - Modelo 37",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.50.jpeg"
+    },
+    {
+      "id": 327,
+      "name": "Ramos Hermoso - Modelo 38",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.51 (1).jpeg"
+    },
+    {
+      "id": 328,
+      "name": "Ramos Especial - Modelo 39",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.51.jpeg"
+    },
+    {
+      "id": 329,
+      "name": "Ramos Personalizado - Modelo 40",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.52 (1).jpeg"
+    },
+    {
+      "id": 330,
+      "name": "Ramos Moderno - Modelo 41",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.52.jpeg"
+    },
+    {
+      "id": 331,
+      "name": "Ramos Elegante - Modelo 42",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.53 (1).jpeg"
+    },
+    {
+      "id": 332,
+      "name": "Ramos Premium - Modelo 43",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.53.jpeg"
+    },
+    {
+      "id": 333,
+      "name": "Ramos Exclusivo - Modelo 44",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.54.jpeg"
+    },
+    {
+      "id": 334,
+      "name": "Ramos Hermoso - Modelo 45",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.55 (1).jpeg"
+    },
+    {
+      "id": 335,
+      "name": "Ramos Especial - Modelo 46",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.55.jpeg"
+    },
+    {
+      "id": 336,
+      "name": "Ramos Personalizado - Modelo 47",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.56.jpeg"
+    },
+    {
+      "id": 337,
+      "name": "Ramos Moderno - Modelo 48",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.57 (1).jpeg"
+    },
+    {
+      "id": 338,
+      "name": "Ramos Elegante - Modelo 49",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.57.jpeg"
+    },
+    {
+      "id": 339,
+      "name": "Ramos Premium - Modelo 50",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.58 (1).jpeg"
+    },
+    {
+      "id": 340,
+      "name": "Ramos Exclusivo - Modelo 51",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.58.jpeg"
+    },
+    {
+      "id": 341,
+      "name": "Ramos Hermoso - Modelo 52",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.59 (1).jpeg"
+    },
+    {
+      "id": 342,
+      "name": "Ramos Especial - Modelo 53",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.13.59.jpeg"
+    },
+    {
+      "id": 343,
+      "name": "Ramos Personalizado - Modelo 54",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.00.jpeg"
+    },
+    {
+      "id": 344,
+      "name": "Ramos Moderno - Modelo 55",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.01 (1).jpeg"
+    },
+    {
+      "id": 345,
+      "name": "Ramos Elegante - Modelo 56",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.01.jpeg"
+    },
+    {
+      "id": 346,
+      "name": "Ramos Premium - Modelo 57",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.02.jpeg"
+    },
+    {
+      "id": 347,
+      "name": "Ramos Exclusivo - Modelo 58",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.03 (1).jpeg"
+    },
+    {
+      "id": 348,
+      "name": "Ramos Hermoso - Modelo 59",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.03.jpeg"
+    },
+    {
+      "id": 349,
+      "name": "Ramos Especial - Modelo 60",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.04 (1).jpeg"
+    },
+    {
+      "id": 350,
+      "name": "Ramos Personalizado - Modelo 61",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.04.jpeg"
+    },
+    {
+      "id": 351,
+      "name": "Ramos Moderno - Modelo 62",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.05 (1).jpeg"
+    },
+    {
+      "id": 352,
+      "name": "Ramos Elegante - Modelo 63",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.05.jpeg"
+    },
+    {
+      "id": 353,
+      "name": "Ramos Premium - Modelo 64",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.06 (1).jpeg"
+    },
+    {
+      "id": 354,
+      "name": "Ramos Exclusivo - Modelo 65",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.06.jpeg"
+    },
+    {
+      "id": 355,
+      "name": "Ramos Hermoso - Modelo 66",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.07.jpeg"
+    },
+    {
+      "id": 356,
+      "name": "Ramos Especial - Modelo 67",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.08 (1).jpeg"
+    },
+    {
+      "id": 357,
+      "name": "Ramos Personalizado - Modelo 68",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.08.jpeg"
+    },
+    {
+      "id": 358,
+      "name": "Ramos Moderno - Modelo 69",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.09.jpeg"
+    },
+    {
+      "id": 359,
+      "name": "Ramos Elegante - Modelo 70",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.10 (1).jpeg"
+    },
+    {
+      "id": 360,
+      "name": "Ramos Premium - Modelo 71",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.10.jpeg"
+    },
+    {
+      "id": 361,
+      "name": "Ramos Exclusivo - Modelo 72",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.11 (1).jpeg"
+    },
+    {
+      "id": 362,
+      "name": "Ramos Hermoso - Modelo 73",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.11.jpeg"
+    },
+    {
+      "id": 363,
+      "name": "Ramos Especial - Modelo 74",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.12 (1).jpeg"
+    },
+    {
+      "id": 364,
+      "name": "Ramos Personalizado - Modelo 75",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.12.jpeg"
+    },
+    {
+      "id": 365,
+      "name": "Ramos Moderno - Modelo 76",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.13.jpeg"
+    },
+    {
+      "id": 366,
+      "name": "Ramos Elegante - Modelo 77",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.14 (1).jpeg"
+    },
+    {
+      "id": 367,
+      "name": "Ramos Premium - Modelo 78",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.14.jpeg"
+    },
+    {
+      "id": 368,
+      "name": "Ramos Exclusivo - Modelo 79",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.15 (1).jpeg"
+    },
+    {
+      "id": 369,
+      "name": "Ramos Hermoso - Modelo 80",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.15.jpeg"
+    },
+    {
+      "id": 370,
+      "name": "Ramos Especial - Modelo 81",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.16 (1).jpeg"
+    },
+    {
+      "id": 371,
+      "name": "Ramos Personalizado - Modelo 82",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.16.jpeg"
+    },
+    {
+      "id": 372,
+      "name": "Ramos Moderno - Modelo 83",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.17.jpeg"
+    },
+    {
+      "id": 373,
+      "name": "Ramos Elegante - Modelo 84",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.18 (1).jpeg"
+    },
+    {
+      "id": 374,
+      "name": "Ramos Premium - Modelo 85",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.18.jpeg"
+    },
+    {
+      "id": 375,
+      "name": "Ramos Exclusivo - Modelo 86",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.19 (1).jpeg"
+    },
+    {
+      "id": 376,
+      "name": "Ramos Hermoso - Modelo 87",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.19.jpeg"
+    },
+    {
+      "id": 377,
+      "name": "Ramos Especial - Modelo 88",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.20 (1).jpeg"
+    },
+    {
+      "id": 378,
+      "name": "Ramos Personalizado - Modelo 89",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.20.jpeg"
+    },
+    {
+      "id": 379,
+      "name": "Ramos Moderno - Modelo 90",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.21.jpeg"
+    },
+    {
+      "id": 380,
+      "name": "Ramos Elegante - Modelo 91",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.22 (1).jpeg"
+    },
+    {
+      "id": 381,
+      "name": "Ramos Premium - Modelo 92",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.22.jpeg"
+    },
+    {
+      "id": 382,
+      "name": "Ramos Exclusivo - Modelo 93",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.23 (1).jpeg"
+    },
+    {
+      "id": 383,
+      "name": "Ramos Hermoso - Modelo 94",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.23.jpeg"
+    },
+    {
+      "id": 384,
+      "name": "Ramos Especial - Modelo 95",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.24.jpeg"
+    },
+    {
+      "id": 385,
+      "name": "Ramos Personalizado - Modelo 96",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.25 (1).jpeg"
+    },
+    {
+      "id": 386,
+      "name": "Ramos Moderno - Modelo 97",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.25.jpeg"
+    },
+    {
+      "id": 387,
+      "name": "Ramos Elegante - Modelo 98",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.14.26.jpeg"
+    },
+    {
+      "id": 388,
+      "name": "Ramos Premium - Modelo 99",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.27.11.jpeg"
+    },
+    {
+      "id": 389,
+      "name": "Ramos Exclusivo - Modelo 100",
+      "price": "Desde S/ 0",
+      "image": "/Decoraciones/DECORACIÓN/RAMOS/WhatsApp Image 2026-04-18 at 20.29.54.jpeg"
     }
   ],
   "ramos-con-peluches": [
