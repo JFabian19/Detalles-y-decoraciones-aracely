@@ -315,13 +315,14 @@ export default function App() {
                           </span>
                         )}
                         <a 
-                          href={`https://wa.me/51928611993?text=Hola,%20me%20interesa%20el%20producto:%20${encodeURIComponent(product.name)}`}
+                          href={`https://wa.me/51928611993?text=Hola,%20me%20interesa%20consultar%20sobre%20este%20producto:%20${encodeURIComponent(product.name)}%20(Ref:%20${encodeURIComponent(window.location.origin + (product.image || ''))})`}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-sm font-bold text-white bg-[#4A2C2A] px-5 py-2.5 rounded-full hover:bg-[#3d2422] transition-colors active:scale-95 shadow-md shadow-pink-100"
                         >
                           Consultar
                         </a>
+
                       </div>
                     </div>
                   </motion.div>
