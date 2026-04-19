@@ -310,7 +310,7 @@ export default function App() {
                             className="text-[#FF69B4] font-bold bg-white border-2 border-pink-200 px-3 py-1 rounded-lg text-sm w-32 focus:outline-none focus:border-[#FF69B4]"
                           />
                         ) : (
-                          <span className="text-[#FF69B4] font-bold bg-[#FFF0F5] px-3 py-1 rounded-lg text-sm">
+                          <span className={`${product.price.includes('Consultar') ? 'text-[#FF69B4] border border-[#FF69B4] bg-white' : 'text-[#FF69B4] bg-[#FFF0F5]'} font-bold px-3 py-1.5 rounded-lg text-xs tracking-tight shadow-sm`}>
                             {product.price}
                           </span>
                         )}

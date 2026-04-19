@@ -31,7 +31,7 @@ function walk(dir) {
         categoriesMap.get(categoryName).products.push({
           id: productId++,
           name: productName,
-          price: 'Desde S/ 0', // Placeholder
+          price: 'Consultar al WhatsApp', // Placeholder
           image: relativePath
         });
       }
