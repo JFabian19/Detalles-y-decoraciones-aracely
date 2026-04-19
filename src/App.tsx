@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Facebook, Instagram, Phone, ArrowLeft, Heart, ChevronRight } from 'lucide-react';
+import { Facebook, Instagram, Phone, ArrowLeft, Heart, ChevronRight, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
 import { categories, productsData as initialProductsData } from './data';
@@ -38,8 +38,9 @@ const WhatsAppIcon = ({ className }: { className?: string }) => (
 export default function App() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [isAdmin, setIsAdmin] = useState(false);
-  const [products, setProducts] = useState<Record<string, { id: number; name: string; price: string; image?: string }[]>>(initialProductsData as any);
+  const [products, setProducts] = useState<Record<string, { id: number; name: string; price: string; image?: string; description?: string }[]>>(initialProductsData as any);
   const [showExportedCode, setShowExportedCode] = useState(false);
+  const [viewImage, setViewImage] = useState<string | null>(null);
 
   const handlePriceChange = (category: string, productId: number, newPrice: string) => {
     setProducts(prev => ({
@@ -208,11 +209,11 @@ export default function App() {
                       whileTap={{ scale: 0.98 }}
                       key={category.id}
                       onClick={() => handleCategoryClick(category.id)}
-                      className="group relative aspect-[4/5] w-full overflow-hidden rounded-2xl shadow-md"
+                      className="group relative aspect-[4/5] w-full overflow-hidden rounded-2xl shadow-md bg-white hover:shadow-lg transition-shadow"
                     >
                       {/* Category Image */}
                       {products[category.id]?.[0]?.image ? (
-                        <div className="absolute inset-0 bg-pink-100 flex flex-col items-center justify-center overflow-hidden">
+                        <div className="absolute inset-0 bg-pink-50 flex flex-col items-center justify-center overflow-hidden">
                           <img src={products[category.id][0].image} alt={category.title} className="w-full h-full object-cover" loading="lazy" />
                         </div>
                       ) : (
@@ -233,6 +234,7 @@ export default function App() {
                       {/* Bottom Content */}
                       <div className="absolute bottom-0 left-0 right-0 p-3 flex flex-col items-center justify-end text-center">
                         <h3 className="text-base font-extrabold text-white leading-tight drop-shadow-md mb-1">
+                          {(category as any).emoji && <span className="mr-1">{(category as any).emoji}</span>}
                           {category.title}
                         </h3>
                         <p className="text-[9px] font-bold text-amber-300 tracking-wider uppercase drop-shadow-sm">
@@ -278,8 +280,11 @@ export default function App() {
                   >
                     {/* Product Image */}
                     {product.image ? (
-                      <div className="aspect-[4/3] w-full bg-pink-50 border-b border-pink-100 flex flex-col items-center justify-center overflow-hidden">
-                        <img src={product.image} alt={product.name} className="w-full h-full object-cover" loading="lazy" />
+                      <div 
+                        onClick={() => setViewImage(product.image!)}
+                        className="w-full bg-white border-b border-pink-100 flex flex-col items-center justify-center overflow-hidden cursor-zoom-in"
+                      >
+                        <img src={product.image} alt={product.name} className="w-full h-auto block" loading="lazy" />
                       </div>
                     ) : (
                       <div className="aspect-[4/3] w-full bg-pink-50 border-b-2 border-dashed border-pink-200 flex flex-col items-center justify-center gap-1">
@@ -291,6 +296,11 @@ export default function App() {
                       <h3 className="font-bold text-[#4A2C2A] text-lg leading-tight">
                         {product.name}
                       </h3>
+                      {product.description && (
+                        <p className="text-sm text-[#FF69B4] italic font-medium">
+                          {product.description}
+                        </p>
+                      )}
                       <div className="flex items-center justify-between mt-1">
                         {isAdmin ? (
                           <input 
@@ -330,6 +340,35 @@ export default function App() {
         >
           <WhatsAppIcon className="w-7 h-7" />
         </a>
+
+        {/* Fullscreen Image Viewer */}
+        <AnimatePresence>
+          {viewImage && (
+            <motion.div 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setViewImage(null)}
+              className="fixed inset-0 z-[100] bg-black/95 flex items-center justify-center p-4 cursor-zoom-out"
+            >
+              <button 
+                onClick={(e) => { e.stopPropagation(); setViewImage(null); }}
+                className="absolute top-6 right-6 z-[110] bg-white/10 hover:bg-white/20 text-white p-3 rounded-full transition-colors"
+              >
+                <X size={32} />
+              </button>
+              <motion.img 
+                initial={{ scale: 0.9, y: 20 }}
+                animate={{ scale: 1, y: 0 }}
+                exit={{ scale: 0.9, y: 20 }}
+                src={viewImage} 
+                alt="Fullscreen view" 
+                className="max-w-full max-h-[90vh] object-contain rounded-lg shadow-2xl"
+                onClick={(e) => e.stopPropagation()}
+              />
+            </motion.div>
+          )}
+        </AnimatePresence>
 
         {/* Export Code Modal */}
         <AnimatePresence>
