@@ -82,10 +82,10 @@ Object.keys(productsData).forEach(catId => {
   });
 });
 
-const newContent = \`
-export const categories = \${JSON.stringify(categories, null, 2)};
-export const productsData = \${JSON.stringify(productsData, null, 2)};
-\`;
+const newContent = `
+export const categories = ${JSON.stringify(categories, null, 2)};
+export const productsData = ${JSON.stringify(productsData, null, 2)};
+`;
 
 fs.writeFileSync(dataPath, newContent);
 fs.unlinkSync(path.join(__dirname, 'temp.cjs'));

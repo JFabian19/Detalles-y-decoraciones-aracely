@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { Facebook, Instagram, Phone, ArrowLeft, Heart, ChevronRight, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
-import { categories, productsData as initialProductsData } from './data';
+import Papa from 'papaparse';
+import { categories as initialCategories, productsData as initialProductsData } from './data';
 
 // Custom TikTok Icon since it's not in lucide-react by default
 const TikTokIcon = ({ className }: { className?: string }) => (
@@ -39,8 +40,78 @@ export default function App() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [isAdmin, setIsAdmin] = useState(false);
   const [products, setProducts] = useState<Record<string, { id: number; name: string; price: string; image?: string; description?: string }[]>>(initialProductsData as any);
+  const [categories, setCategories] = useState(initialCategories);
   const [showExportedCode, setShowExportedCode] = useState(false);
   const [viewImage, setViewImage] = useState<string | null>(null);
+
+  React.useEffect(() => {
+    const fetchSheetsData = async () => {
+      try {
+        const SHEET_ID = '1ukAwJY6sc-_NpH7mNUNCdNS_w6sMBUxHkoxg7kr5y3o';
+        
+        // Fetch Categories
+        const categoriesRes = await fetch(`https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&sheet=Categorias`);
+        const categoriesCsv = await categoriesRes.text();
+        Papa.parse(categoriesCsv, {
+          header: true,
+          complete: (results: any) => {
+            const parsedCategories = results.data
+              .filter((row: any) => row.id && row.title)
+              .map((row: any) => ({
+                id: row.id.trim(),
+                title: row.title.trim(),
+                emoji: row.emoji?.trim() || ''
+              }));
+            if (parsedCategories.length > 0) {
+              setCategories(parsedCategories);
+            }
+          }
+        });
+
+        // Fetch Products
+        const productsRes = await fetch(`https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&sheet=Productos`);
+        const productsCsv = await productsRes.text();
+        Papa.parse(productsCsv, {
+          header: true,
+          complete: (results: any) => {
+            setProducts(() => {
+              const mergedProducts: Record<string, any[]> = {};
+              
+              results.data.forEach((row: any, index: number) => {
+                if (!row.categoria || !row.nombre) return;
+                
+                const catId = row.categoria.trim();
+                const nombre = row.nombre.trim();
+                const desc = row.descripcion?.trim();
+                const imgUrl = row['imagen url']?.trim() || row.imagen_url?.trim();
+                
+                if (!mergedProducts[catId]) {
+                  mergedProducts[catId] = [];
+                }
+                
+                const localCatProducts = initialProductsData[catId as keyof typeof initialProductsData] || [];
+                const localProd = localCatProducts.find((p) => p.name === nombre) as any;
+                
+                mergedProducts[catId].push({
+                  id: localProd ? localProd.id : 10000 + index,
+                  name: nombre,
+                  description: desc || (localProd?.description || ""),
+                  price: "Consultar al WhatsApp", // default as requested in another requirement
+                  image: imgUrl ? imgUrl : (localProd ? localProd.image : undefined)
+                });
+              });
+              
+              return mergedProducts;
+            });
+          }
+        });
+      } catch (error) {
+        console.error("Error fetching Google Sheets:", error);
+      }
+    };
+    
+    fetchSheetsData();
+  }, []);
 
   const handlePriceChange = (category: string, productId: number, newPrice: string) => {
     setProducts(prev => ({
@@ -315,7 +386,7 @@ export default function App() {
                           </span>
                         )}
                         <a 
-                          href={`https://wa.me/51928611993?text=Hola,%20me%20interesa%20consultar%20sobre%20este%20producto:%20${encodeURIComponent(product.name)}%20(Ref:%20${encodeURIComponent(window.location.origin + (product.image || ''))})`}
+                          href={`https://wa.me/51928611993?text=${encodeURIComponent(`Hola, me interesa consultar sobre este producto: ${product.name}\n\nRef: ${encodeURI(window.location.origin + (product.image || ''))}`)}`}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-sm font-bold text-white bg-[#4A2C2A] px-5 py-2.5 rounded-full hover:bg-[#3d2422] transition-colors active:scale-95 shadow-md shadow-pink-100"
