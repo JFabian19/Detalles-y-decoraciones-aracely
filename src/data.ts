@@ -123,6 +123,12 @@ export const productsData = {
       "name": "Babyshower Exclusivo - Modelo 9",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/DECORACION DE EVENTOS/DECORACION TEMATICA/BABYSHOWER/WhatsApp Image 2026-04-15 at 1.22.33 PM (3).jpeg"
+    },
+    {
+      "id": 24,
+      "name": "Fiesta Infantil Exclusivo - Modelo 2",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/DECORACION DE EVENTOS/DECORACION TEMATICA/FIESTA INFANTIL/WhatsApp Image 2026-04-15 at 1.22.13 PM (1).jpeg"
     }
   ],
   "bautizos": [
@@ -193,18 +199,6 @@ export const productsData = {
       "name": "Fiesta Infantil Premium - Modelo 1",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/DECORACION DE EVENTOS/DECORACION TEMATICA/FIESTA INFANTIL/WhatsApp Image 2026-04-15 at 1.21.25 PM.jpeg"
-    },
-    {
-      "id": 24,
-      "name": "Fiesta Infantil Exclusivo - Modelo 2",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/DECORACION DE EVENTOS/DECORACION TEMATICA/FIESTA INFANTIL/WhatsApp Image 2026-04-15 at 1.22.13 PM (1).jpeg"
-    },
-    {
-      "id": 25,
-      "name": "Fiesta Infantil Hermoso - Modelo 3",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/DECORACION DE EVENTOS/DECORACION TEMATICA/FIESTA INFANTIL/WhatsApp Image 2026-04-15 at 1.22.14 PM (2).jpeg"
     },
     {
       "id": 26,
@@ -589,12 +583,6 @@ export const productsData = {
       "image": "/Decoraciones/DECORACION/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.27 PM (1).jpeg"
     },
     {
-      "id": 89,
-      "name": "Decoraciones Exclusivo - Modelo 9",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.27 PM (2).jpeg"
-    },
-    {
       "id": 90,
       "name": "Decoraciones Hermoso - Modelo 10",
       "price": "Consultar al WhatsApp",
@@ -773,12 +761,6 @@ export const productsData = {
       "name": "Decoraciones Especial - Modelo 39",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.58 PM (2).jpeg"
-    },
-    {
-      "id": 120,
-      "name": "Decoraciones Personalizado - Modelo 40",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.58 PM.jpeg"
     },
     {
       "id": 121,
@@ -1213,18 +1195,6 @@ export const productsData = {
       "image": "/Decoraciones/DECORACION/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.38 PM (3).jpeg"
     },
     {
-      "id": 193,
-      "name": "Decoraciones Premium - Modelo 113",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.38 PM.jpeg"
-    },
-    {
-      "id": 194,
-      "name": "Decoraciones Exclusivo - Modelo 114",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.39 PM (2).jpeg"
-    },
-    {
       "id": 195,
       "name": "Decoraciones Hermoso - Modelo 115",
       "price": "Consultar al WhatsApp",
@@ -1519,6 +1489,12 @@ export const productsData = {
       "name": "Muro Shimmer Con Arco De Globos Y Mobiliario Elegante - Modelo 7",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/MURO SHIMMER con ARCO DE Globos y Mobiliario/WhatsApp Image 2026-04-15 at 1.22.42 PM (3).jpeg"
+    },
+    {
+      "id": 25,
+      "name": "Fiesta Infantil Hermoso - Modelo 3",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/DECORACION DE EVENTOS/DECORACION TEMATICA/FIESTA INFANTIL/WhatsApp Image 2026-04-15 at 1.22.14 PM (2).jpeg"
     }
   ],
   "detalles-personalizados": [
@@ -1617,6 +1593,138 @@ export const productsData = {
       "name": "Detalles Personalizados Premium - Modelo 15",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/DETALLES PERSONALIZADOS/WhatsApp Image 2026-04-15 at 1.22.58 PM.jpeg"
+    },
+    {
+      "id": 297,
+      "name": "Ramos Elegante - Modelo 7",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.34 (1).jpeg"
+    },
+    {
+      "id": 306,
+      "name": "Ramos Exclusivo - Modelo 16",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.39 (1).jpeg"
+    },
+    {
+      "id": 313,
+      "name": "Ramos Exclusivo - Modelo 23",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.42.jpeg"
+    },
+    {
+      "id": 322,
+      "name": "Ramos Especial - Modelo 32",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.47.jpeg"
+    },
+    {
+      "id": 327,
+      "name": "Ramos Exclusivo - Modelo 37",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.50.jpeg"
+    },
+    {
+      "id": 333,
+      "name": "Ramos Premium - Modelo 43",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.53.jpeg"
+    },
+    {
+      "id": 334,
+      "name": "Ramos Exclusivo - Modelo 44",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.54.jpeg"
+    },
+    {
+      "id": 335,
+      "name": "Ramos Hermoso - Modelo 45",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.55 (1).jpeg"
+    },
+    {
+      "id": 337,
+      "name": "Ramos Personalizado - Modelo 47",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.56.jpeg"
+    },
+    {
+      "id": 339,
+      "name": "Ramos Elegante - Modelo 49",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.57.jpeg"
+    },
+    {
+      "id": 349,
+      "name": "Ramos Hermoso - Modelo 59",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.03.jpeg"
+    },
+    {
+      "id": 350,
+      "name": "Ramos Especial - Modelo 60",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.04 (1).jpeg"
+    },
+    {
+      "id": 355,
+      "name": "Ramos Exclusivo - Modelo 65",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.06.jpeg"
+    },
+    {
+      "id": 356,
+      "name": "Ramos Hermoso - Modelo 66",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.07.jpeg"
+    },
+    {
+      "id": 364,
+      "name": "Ramos Especial - Modelo 74",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.12 (1).jpeg"
+    },
+    {
+      "id": 365,
+      "name": "Ramos Personalizado - Modelo 75",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.12.jpeg"
+    },
+    {
+      "id": 366,
+      "name": "Ramos Moderno - Modelo 76",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.13.jpeg"
+    },
+    {
+      "id": 367,
+      "name": "Ramos Elegante - Modelo 77",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.14 (1).jpeg"
+    },
+    {
+      "id": 368,
+      "name": "Ramos Premium - Modelo 78",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.14.jpeg"
+    },
+    {
+      "id": 375,
+      "name": "Ramos Premium - Modelo 85",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.18.jpeg"
+    },
+    {
+      "id": 378,
+      "name": "Ramos Especial - Modelo 88",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.20 (1).jpeg"
+    },
+    {
+      "id": 383,
+      "name": "Ramos Exclusivo - Modelo 93",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.23 (1).jpeg"
     }
   ],
   "box-de-regalo": [
@@ -1643,6 +1751,42 @@ export const productsData = {
       "name": "Box De Regalo Especial - Modelo 4",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/DETALLES PERSONALIZADOS/Box de regalo/WhatsApp Image 2026-04-15 at 1.22.58 PM.jpeg"
+    },
+    {
+      "id": 308,
+      "name": "Ramos Especial - Modelo 18",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.40 (1).jpeg"
+    },
+    {
+      "id": 323,
+      "name": "Ramos Personalizado - Modelo 33",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.48 (1).jpeg"
+    },
+    {
+      "id": 326,
+      "name": "Ramos Premium - Modelo 36",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.49.jpeg"
+    },
+    {
+      "id": 345,
+      "name": "Ramos Moderno - Modelo 55",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.01 (1).jpeg"
+    },
+    {
+      "id": 348,
+      "name": "Ramos Exclusivo - Modelo 58",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.03 (1).jpeg"
+    },
+    {
+      "id": 358,
+      "name": "Ramos Personalizado - Modelo 68",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.08.jpeg"
     }
   ],
   "globos-con-helio": [
@@ -1791,6 +1935,30 @@ export const productsData = {
       "name": "Decoraciones Premium - Modelo 113",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/GRADUACION/Decoraciones Premium - Modelo 113.jpeg"
+    },
+    {
+      "id": 194,
+      "name": "Decoraciones Exclusivo - Modelo 114",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.39 PM (2).jpeg"
+    },
+    {
+      "id": 193,
+      "name": "Decoraciones Premium - Modelo 113",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/DECORACIONES/WhatsApp Image 2026-04-15 at 1.22.38 PM.jpeg"
+    },
+    {
+      "id": 120,
+      "name": "Decoraciones Personalizado - Modelo 40",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.58 PM.jpeg"
+    },
+    {
+      "id": 89,
+      "name": "Decoraciones Exclusivo - Modelo 9",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/DECORACIONES/WhatsApp Image 2026-04-15 at 1.21.27 PM (2).jpeg"
     }
   ],
   "ramos": [
@@ -1849,12 +2017,6 @@ export const productsData = {
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.33.jpeg"
     },
     {
-      "id": 297,
-      "name": "Ramos Elegante - Modelo 7",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.34 (1).jpeg"
-    },
-    {
       "id": 298,
       "name": "Ramos Premium - Modelo 8",
       "price": "Consultar al WhatsApp",
@@ -1897,28 +2059,10 @@ export const productsData = {
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.38 (1).jpeg"
     },
     {
-      "id": 305,
-      "name": "Ramos Premium - Modelo 15",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.38.jpeg"
-    },
-    {
-      "id": 306,
-      "name": "Ramos Exclusivo - Modelo 16",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.39 (1).jpeg"
-    },
-    {
       "id": 307,
       "name": "Ramos Hermoso - Modelo 17",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.39.jpeg"
-    },
-    {
-      "id": 308,
-      "name": "Ramos Especial - Modelo 18",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.40 (1).jpeg"
     },
     {
       "id": 309,
@@ -1943,12 +2087,6 @@ export const productsData = {
       "name": "Ramos Premium - Modelo 22",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.42 (1).jpeg"
-    },
-    {
-      "id": 313,
-      "name": "Ramos Exclusivo - Modelo 23",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.42.jpeg"
     },
     {
       "id": 314,
@@ -1999,18 +2137,6 @@ export const productsData = {
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.47 (1).jpeg"
     },
     {
-      "id": 322,
-      "name": "Ramos Especial - Modelo 32",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.47.jpeg"
-    },
-    {
-      "id": 323,
-      "name": "Ramos Personalizado - Modelo 33",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.48 (1).jpeg"
-    },
-    {
       "id": 324,
       "name": "Ramos Moderno - Modelo 34",
       "price": "Consultar al WhatsApp",
@@ -2021,18 +2147,6 @@ export const productsData = {
       "name": "Ramos Elegante - Modelo 35",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.49 (1).jpeg"
-    },
-    {
-      "id": 326,
-      "name": "Ramos Premium - Modelo 36",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.49.jpeg"
-    },
-    {
-      "id": 327,
-      "name": "Ramos Exclusivo - Modelo 37",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.50.jpeg"
     },
     {
       "id": 328,
@@ -2065,46 +2179,16 @@ export const productsData = {
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.53 (1).jpeg"
     },
     {
-      "id": 333,
-      "name": "Ramos Premium - Modelo 43",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.53.jpeg"
-    },
-    {
-      "id": 334,
-      "name": "Ramos Exclusivo - Modelo 44",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.54.jpeg"
-    },
-    {
-      "id": 335,
-      "name": "Ramos Hermoso - Modelo 45",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.55 (1).jpeg"
-    },
-    {
       "id": 336,
       "name": "Ramos Especial - Modelo 46",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.55.jpeg"
     },
     {
-      "id": 337,
-      "name": "Ramos Personalizado - Modelo 47",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.56.jpeg"
-    },
-    {
       "id": 338,
       "name": "Ramos Moderno - Modelo 48",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.57 (1).jpeg"
-    },
-    {
-      "id": 339,
-      "name": "Ramos Elegante - Modelo 49",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.57.jpeg"
     },
     {
       "id": 340,
@@ -2137,12 +2221,6 @@ export const productsData = {
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.00.jpeg"
     },
     {
-      "id": 345,
-      "name": "Ramos Moderno - Modelo 55",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.01 (1).jpeg"
-    },
-    {
       "id": 346,
       "name": "Ramos Elegante - Modelo 56",
       "price": "Consultar al WhatsApp",
@@ -2153,24 +2231,6 @@ export const productsData = {
       "name": "Ramos Premium - Modelo 57",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.02.jpeg"
-    },
-    {
-      "id": 348,
-      "name": "Ramos Exclusivo - Modelo 58",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.03 (1).jpeg"
-    },
-    {
-      "id": 349,
-      "name": "Ramos Hermoso - Modelo 59",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.03.jpeg"
-    },
-    {
-      "id": 350,
-      "name": "Ramos Especial - Modelo 60",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.04 (1).jpeg"
     },
     {
       "id": 351,
@@ -2197,28 +2257,10 @@ export const productsData = {
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.06 (1).jpeg"
     },
     {
-      "id": 355,
-      "name": "Ramos Exclusivo - Modelo 65",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.06.jpeg"
-    },
-    {
-      "id": 356,
-      "name": "Ramos Hermoso - Modelo 66",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.07.jpeg"
-    },
-    {
       "id": 357,
       "name": "Ramos Especial - Modelo 67",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.08 (1).jpeg"
-    },
-    {
-      "id": 358,
-      "name": "Ramos Personalizado - Modelo 68",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.08.jpeg"
     },
     {
       "id": 359,
@@ -2249,36 +2291,6 @@ export const productsData = {
       "name": "Ramos Hermoso - Modelo 73",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.11.jpeg"
-    },
-    {
-      "id": 364,
-      "name": "Ramos Especial - Modelo 74",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.12 (1).jpeg"
-    },
-    {
-      "id": 365,
-      "name": "Ramos Personalizado - Modelo 75",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.12.jpeg"
-    },
-    {
-      "id": 366,
-      "name": "Ramos Moderno - Modelo 76",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.13.jpeg"
-    },
-    {
-      "id": 367,
-      "name": "Ramos Elegante - Modelo 77",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.14 (1).jpeg"
-    },
-    {
-      "id": 368,
-      "name": "Ramos Premium - Modelo 78",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.14.jpeg"
     },
     {
       "id": 369,
@@ -2317,12 +2329,6 @@ export const productsData = {
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.18 (1).jpeg"
     },
     {
-      "id": 375,
-      "name": "Ramos Premium - Modelo 85",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.18.jpeg"
-    },
-    {
       "id": 376,
       "name": "Ramos Exclusivo - Modelo 86",
       "price": "Consultar al WhatsApp",
@@ -2333,12 +2339,6 @@ export const productsData = {
       "name": "Ramos Hermoso - Modelo 87",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.19.jpeg"
-    },
-    {
-      "id": 378,
-      "name": "Ramos Especial - Modelo 88",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.20 (1).jpeg"
     },
     {
       "id": 379,
@@ -2363,12 +2363,6 @@ export const productsData = {
       "name": "Ramos Premium - Modelo 92",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.22.jpeg"
-    },
-    {
-      "id": 383,
-      "name": "Ramos Exclusivo - Modelo 93",
-      "price": "Consultar al WhatsApp",
-      "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.23 (1).jpeg"
     },
     {
       "id": 384,
