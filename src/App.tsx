@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Facebook, Instagram, Phone, ArrowLeft, Heart, ChevronRight, X } from 'lucide-react';
+import { Facebook, MapPin, Phone, ArrowLeft, Heart, ChevronRight, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
 import Papa from 'papaparse';
@@ -206,7 +206,7 @@ export default function App() {
                 <div className="flex flex-col items-center gap-6">
                   <div className="flex justify-center gap-5">
                     <a 
-                      href="https://www.facebook.com/p/Detalles-Aracelly-100057186201363/" 
+                      href="https://www.facebook.com/profile.php?id=61585547885179&rdid=rG8cgwRdxDG9gFUF&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1Bzp3mMr5r%2F#" 
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-12 h-12 rounded-full bg-[#1877F2] text-white flex items-center justify-center hover:scale-110 transition-transform shadow-md"
@@ -214,7 +214,7 @@ export default function App() {
                       <Facebook className="w-6 h-6" />
                     </a>
                     <a 
-                      href="https://www.tiktok.com/@detalles.araceli" 
+                      href="https://www.tiktok.com/@detalles.aracelly?_r=1&_t=ZS-92e0KCLNUIR" 
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-12 h-12 rounded-full bg-black text-white flex items-center justify-center hover:scale-110 transition-transform shadow-md"
@@ -222,12 +222,12 @@ export default function App() {
                       <TikTokIcon className="w-6 h-6" />
                     </a>
                     <a 
-                      href="https://www.instagram.com/detallesbyara_/" 
+                      href="https://maps.app.goo.gl/UB7bW6hkQAZDES8YA" 
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="w-12 h-12 rounded-full bg-gradient-to-tr from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] text-white flex items-center justify-center hover:scale-110 transition-transform shadow-md"
+                      className="w-12 h-12 rounded-full bg-[#EA4335] text-white flex items-center justify-center hover:scale-110 transition-transform shadow-md"
                     >
-                      <Instagram className="w-6 h-6" />
+                      <MapPin className="w-6 h-6" />
                     </a>
                   </div>
                   
@@ -242,7 +242,7 @@ export default function App() {
                     <WhatsAppIcon className="w-5 h-5" />
                     928 611 993
                   </motion.a>
-                  <p className="text-xs text-[#4A2C2A]/50 font-bold tracking-widest uppercase">@detalles.araceli</p>
+                  <p className="text-xs text-[#4A2C2A]/50 font-bold tracking-widest uppercase">@detalles.aracelly</p>
                   
                   {isAdmin && (
                     <motion.div 
