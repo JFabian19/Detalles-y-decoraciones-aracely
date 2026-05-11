@@ -15,7 +15,8 @@ Object.entries(productsData).forEach(([catId, products]) => {
   products.forEach((p: any) => {
     const name = `"${p.name.replace(/"/g, '""')}"`;
     const desc = p.description ? `"${p.description.replace(/"/g, '""')}"` : '';
-    prodCsv += `${catId},${name},${desc},\n`; // image_url empty for existing products
+    const img = p.image ? `${p.image}` : '';
+    prodCsv += `${catId},${name},${desc},${img}\n`;
   });
 });
 fs.writeFileSync('Productos.csv', prodCsv);

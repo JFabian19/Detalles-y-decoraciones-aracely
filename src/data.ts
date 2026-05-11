@@ -1,66 +1,53 @@
 export const categories = [
   {
-    "id": "decoraciones",
-    "title": "DECORACIONES",
-    "emoji": "🎊"
-  },
-  {
-    "id": "muro-shimmer-con-arco-de-globos-y-mobiliario",
-    "title": "MURO SHIMMER",
-    "emoji": "✨"
+    "id": "boda",
+    "title": "BODA"
   },
   {
     "id": "babyshower",
-    "title": "BABYSHOWER",
-    "emoji": "👶"
+    "title": "BABYSHOWER"
   },
   {
     "id": "bautizos",
-    "title": "BAUTIZOS",
-    "emoji": "⛪"
+    "title": "Bautizos"
   },
   {
     "id": "fiesta-infantil",
-    "title": "FIESTA INFANTIL",
-    "emoji": "🥳"
-  },
-  {
-    "id": "boda",
-    "title": "BODA",
-    "emoji": "👰💍"
-  },
-  {
-    "id": "graduacion",
-    "title": "GRADUACIÓN",
-    "emoji": "🎓"
+    "title": "FIESTA INFANTIL"
   },
   {
     "id": "decoracion-romantica-de-habitacion",
-    "title": "HABITACIÓN ROMÁNTICA",
-    "emoji": "💖"
+    "title": "DECORACION ROMANTICA DE HABITACION"
+  },
+  {
+    "id": "decoraciones",
+    "title": "DECORACIONES"
+  },
+  {
+    "id": "muro-shimmer-con-arco-de-globos-y-mobiliario",
+    "title": "MURO SHIMMER con ARCO DE Globos y Mobiliario"
   },
   {
     "id": "detalles-personalizados",
-    "title": "DETALLES PERSONALIZADOS",
-    "emoji": "🎁"
+    "title": "DETALLES PERSONALIZADOS"
   },
   {
     "id": "box-de-regalo",
-    "title": "BOX DE REGALO",
-    "emoji": "💝"
+    "title": "Box de regalo"
   },
   {
     "id": "globos-con-helio",
-    "title": "GLOBOS CON HELIO",
-    "emoji": "🎈"
+    "title": "GLOBOS CON HELIO"
+  },
+  {
+    "id": "graduacion",
+    "title": "GRADUACION"
   },
   {
     "id": "ramos",
-    "title": "RAMOS",
-    "emoji": "🌹"
+    "title": "RAMOS"
   }
 ];
-
 export const productsData = {
   "boda": [
     {
@@ -1474,61 +1461,61 @@ export const productsData = {
       "image": "/Decoraciones/DECORACION/DECORACIÓN DE EVENTOS/ARCOS DE GLOBOS Y MOBILIARIO/MURO SHIMMER con ARCO DE Globos y Mobiliario/ARCO DE GLOBOS Y FONDO PERSONALIZADO DOBLE CON LETRERO DE LUCES Y MOBILIARIO PERSONALIZADO.jpeg"
     },
     {
-      "id": 274,
+      "id": 278,
       "name": "Arco de Globos con Fondo Shimmer Wall",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/MURO SHIMMER con ARCO DE Globos y Mobiliario/ARCO DE GLOBOS CON FONDO Shimmer wall.jpeg"
     },
     {
-      "id": 275,
+      "id": 279,
       "name": "Arco de Globos Negro, Blanco y Dorado + Fondo Doble + Letrero de Luces",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/MURO SHIMMER con ARCO DE Globos y Mobiliario/ARCO DE GLOBOS NEGRO-BLANCO-DORADO + FONDO DOBLE + LETRERO DE LUCES.jpeg"
     },
     {
-      "id": 276,
+      "id": 280,
       "name": "Arco de Globos y Fondo Personalizado Doble con Letrero de Luces y Mobiliario Personalizado",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/MURO SHIMMER con ARCO DE Globos y Mobiliario/ARCO DE GLOBOS Y FONDO PERSONALIZADO DOBLE CON LETRERO DE LUCES Y MOBILIARIO PERSONALIZADO.jpeg"
     },
     {
-      "id": 277,
+      "id": 281,
       "name": "Muro Shimmer Con Arco De Globos Y Mobiliario Premium - Modelo 1",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/MURO SHIMMER con ARCO DE Globos y Mobiliario/WhatsApp Image 2026-04-15 at 1.21.30 PM.jpeg"
     },
     {
-      "id": 278,
+      "id": 282,
       "name": "Muro Shimmer Con Arco De Globos Y Mobiliario Exclusivo - Modelo 2",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/MURO SHIMMER con ARCO DE Globos y Mobiliario/WhatsApp Image 2026-04-15 at 1.22.16 PM (2).jpeg"
     },
     {
-      "id": 279,
+      "id": 283,
       "name": "Muro Shimmer Con Arco De Globos Y Mobiliario Hermoso - Modelo 3",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/MURO SHIMMER con ARCO DE Globos y Mobiliario/WhatsApp Image 2026-04-15 at 1.22.16 PM.jpeg"
     },
     {
-      "id": 280,
+      "id": 284,
       "name": "Muro Shimmer Con Arco De Globos Y Mobiliario Especial - Modelo 4",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/MURO SHIMMER con ARCO DE Globos y Mobiliario/WhatsApp Image 2026-04-15 at 1.22.21 PM (1).jpeg"
     },
     {
-      "id": 281,
+      "id": 285,
       "name": "Muro Shimmer Con Arco De Globos Y Mobiliario Personalizado - Modelo 5",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/MURO SHIMMER con ARCO DE Globos y Mobiliario/WhatsApp Image 2026-04-15 at 1.22.22 PM (1).jpeg"
     },
     {
-      "id": 282,
+      "id": 286,
       "name": "Muro Shimmer Con Arco De Globos Y Mobiliario Moderno - Modelo 6",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/MURO SHIMMER con ARCO DE Globos y Mobiliario/WhatsApp Image 2026-04-15 at 1.22.22 PM (2).jpeg"
     },
     {
-      "id": 283,
+      "id": 287,
       "name": "Muro Shimmer Con Arco De Globos Y Mobiliario Elegante - Modelo 7",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/MURO SHIMMER con ARCO DE Globos y Mobiliario/WhatsApp Image 2026-04-15 at 1.22.42 PM (3).jpeg"
@@ -1780,621 +1767,647 @@ export const productsData = {
       "image": "/Decoraciones/DECORACION/GLOBOS CON HELIO/WhatsApp Image 2026-04-15 at 1.22.41 PM (1).jpeg"
     }
   ],
+  "graduacion": [
+    {
+      "id": 274,
+      "name": "Decoraciones Exclusivo - Modelo 114",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/GRADUACION/Decoraciones Exclusivo - Modelo 114.jpeg"
+    },
+    {
+      "id": 275,
+      "name": "Decoraciones Exclusivo - Modelo 9",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/GRADUACION/Decoraciones Exclusivo - Modelo 9.jpeg"
+    },
+    {
+      "id": 276,
+      "name": "Decoraciones Personalizado - Modelo 40",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/GRADUACION/Decoraciones Personalizado - Modelo 40.jpeg"
+    },
+    {
+      "id": 277,
+      "name": "Decoraciones Premium - Modelo 113",
+      "price": "Consultar al WhatsApp",
+      "image": "/Decoraciones/DECORACION/GRADUACION/Decoraciones Premium - Modelo 113.jpeg"
+    }
+  ],
   "ramos": [
     {
-      "id": 284,
+      "id": 288,
       "name": "Ramo Bouquet",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/Ramo Bouquet.jpeg"
     },
     {
-      "id": 285,
+      "id": 289,
       "name": "Ramo de Rosas con Globo",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/RAMO DE ROSAS CON GLOBO.jpeg"
     },
     {
-      "id": 286,
+      "id": 290,
       "name": "Ramo Personalizado",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/RAMO PERSONALIZADO.jpeg"
     },
     {
-      "id": 287,
+      "id": 291,
       "name": "Ramos Premium - Modelo 1",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-15 at 1.22.56 PM (2).jpeg"
     },
     {
-      "id": 288,
+      "id": 292,
       "name": "Ramos Exclusivo - Modelo 2",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-15 at 1.22.57 PM (3).jpeg"
     },
     {
-      "id": 289,
+      "id": 293,
       "name": "Ramos Hermoso - Modelo 3",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.32 (1).jpeg"
     },
     {
-      "id": 290,
+      "id": 294,
       "name": "Ramos Especial - Modelo 4",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.32.jpeg"
     },
     {
-      "id": 291,
+      "id": 295,
       "name": "Ramos Personalizado - Modelo 5",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.33 (1).jpeg"
     },
     {
-      "id": 292,
+      "id": 296,
       "name": "Ramos Moderno - Modelo 6",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.33.jpeg"
     },
     {
-      "id": 293,
+      "id": 297,
       "name": "Ramos Elegante - Modelo 7",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.34 (1).jpeg"
     },
     {
-      "id": 294,
+      "id": 298,
       "name": "Ramos Premium - Modelo 8",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.34.jpeg"
     },
     {
-      "id": 295,
+      "id": 299,
       "name": "Ramos Exclusivo - Modelo 9",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.35 (1).jpeg"
     },
     {
-      "id": 296,
+      "id": 300,
       "name": "Ramos Hermoso - Modelo 10",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.35.jpeg"
     },
     {
-      "id": 297,
+      "id": 301,
       "name": "Ramos Especial - Modelo 11",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.36.jpeg"
     },
     {
-      "id": 298,
+      "id": 302,
       "name": "Ramos Personalizado - Modelo 12",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.37 (1).jpeg"
     },
     {
-      "id": 299,
+      "id": 303,
       "name": "Ramos Moderno - Modelo 13",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.37.jpeg"
     },
     {
-      "id": 300,
+      "id": 304,
       "name": "Ramos Elegante - Modelo 14",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.38 (1).jpeg"
     },
     {
-      "id": 301,
+      "id": 305,
       "name": "Ramos Premium - Modelo 15",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.38.jpeg"
     },
     {
-      "id": 302,
+      "id": 306,
       "name": "Ramos Exclusivo - Modelo 16",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.39 (1).jpeg"
     },
     {
-      "id": 303,
+      "id": 307,
       "name": "Ramos Hermoso - Modelo 17",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.39.jpeg"
     },
     {
-      "id": 304,
+      "id": 308,
       "name": "Ramos Especial - Modelo 18",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.40 (1).jpeg"
     },
     {
-      "id": 305,
+      "id": 309,
       "name": "Ramos Personalizado - Modelo 19",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.40.jpeg"
     },
     {
-      "id": 306,
+      "id": 310,
       "name": "Ramos Moderno - Modelo 20",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.41 (1).jpeg"
     },
     {
-      "id": 307,
+      "id": 311,
       "name": "Ramos Elegante - Modelo 21",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.41.jpeg"
     },
     {
-      "id": 308,
+      "id": 312,
       "name": "Ramos Premium - Modelo 22",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.42 (1).jpeg"
     },
     {
-      "id": 309,
+      "id": 313,
       "name": "Ramos Exclusivo - Modelo 23",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.42.jpeg"
     },
     {
-      "id": 310,
+      "id": 314,
       "name": "Ramos Hermoso - Modelo 24",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.43.jpeg"
     },
     {
-      "id": 311,
+      "id": 315,
       "name": "Ramos Especial - Modelo 25",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.44 (1).jpeg"
     },
     {
-      "id": 312,
+      "id": 316,
       "name": "Ramos Personalizado - Modelo 26",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.44.jpeg"
     },
     {
-      "id": 313,
+      "id": 317,
       "name": "Ramos Moderno - Modelo 27",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.45 (1).jpeg"
     },
     {
-      "id": 314,
+      "id": 318,
       "name": "Ramos Elegante - Modelo 28",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.45.jpeg"
     },
     {
-      "id": 315,
+      "id": 319,
       "name": "Ramos Premium - Modelo 29",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.46 (1).jpeg"
     },
     {
-      "id": 316,
+      "id": 320,
       "name": "Ramos Exclusivo - Modelo 30",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.46.jpeg"
     },
     {
-      "id": 317,
+      "id": 321,
       "name": "Ramos Hermoso - Modelo 31",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.47 (1).jpeg"
     },
     {
-      "id": 318,
+      "id": 322,
       "name": "Ramos Especial - Modelo 32",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.47.jpeg"
     },
     {
-      "id": 319,
+      "id": 323,
       "name": "Ramos Personalizado - Modelo 33",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.48 (1).jpeg"
     },
     {
-      "id": 320,
+      "id": 324,
       "name": "Ramos Moderno - Modelo 34",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.48.jpeg"
     },
     {
-      "id": 321,
+      "id": 325,
       "name": "Ramos Elegante - Modelo 35",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.49 (1).jpeg"
     },
     {
-      "id": 322,
+      "id": 326,
       "name": "Ramos Premium - Modelo 36",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.49.jpeg"
     },
     {
-      "id": 323,
+      "id": 327,
       "name": "Ramos Exclusivo - Modelo 37",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.50.jpeg"
     },
     {
-      "id": 324,
+      "id": 328,
       "name": "Ramos Hermoso - Modelo 38",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.51 (1).jpeg"
     },
     {
-      "id": 325,
+      "id": 329,
       "name": "Ramos Especial - Modelo 39",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.51.jpeg"
     },
     {
-      "id": 326,
+      "id": 330,
       "name": "Ramos Personalizado - Modelo 40",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.52 (1).jpeg"
     },
     {
-      "id": 327,
+      "id": 331,
       "name": "Ramos Moderno - Modelo 41",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.52.jpeg"
     },
     {
-      "id": 328,
+      "id": 332,
       "name": "Ramos Elegante - Modelo 42",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.53 (1).jpeg"
     },
     {
-      "id": 329,
+      "id": 333,
       "name": "Ramos Premium - Modelo 43",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.53.jpeg"
     },
     {
-      "id": 330,
+      "id": 334,
       "name": "Ramos Exclusivo - Modelo 44",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.54.jpeg"
     },
     {
-      "id": 331,
+      "id": 335,
       "name": "Ramos Hermoso - Modelo 45",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.55 (1).jpeg"
     },
     {
-      "id": 332,
+      "id": 336,
       "name": "Ramos Especial - Modelo 46",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.55.jpeg"
     },
     {
-      "id": 333,
+      "id": 337,
       "name": "Ramos Personalizado - Modelo 47",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.56.jpeg"
     },
     {
-      "id": 334,
+      "id": 338,
       "name": "Ramos Moderno - Modelo 48",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.57 (1).jpeg"
     },
     {
-      "id": 335,
+      "id": 339,
       "name": "Ramos Elegante - Modelo 49",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.57.jpeg"
     },
     {
-      "id": 336,
+      "id": 340,
       "name": "Ramos Premium - Modelo 50",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.58 (1).jpeg"
     },
     {
-      "id": 337,
+      "id": 341,
       "name": "Ramos Exclusivo - Modelo 51",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.58.jpeg"
     },
     {
-      "id": 338,
+      "id": 342,
       "name": "Ramos Hermoso - Modelo 52",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.59 (1).jpeg"
     },
     {
-      "id": 339,
+      "id": 343,
       "name": "Ramos Especial - Modelo 53",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.13.59.jpeg"
     },
     {
-      "id": 340,
+      "id": 344,
       "name": "Ramos Personalizado - Modelo 54",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.00.jpeg"
     },
     {
-      "id": 341,
+      "id": 345,
       "name": "Ramos Moderno - Modelo 55",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.01 (1).jpeg"
     },
     {
-      "id": 342,
+      "id": 346,
       "name": "Ramos Elegante - Modelo 56",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.01.jpeg"
     },
     {
-      "id": 343,
+      "id": 347,
       "name": "Ramos Premium - Modelo 57",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.02.jpeg"
     },
     {
-      "id": 344,
+      "id": 348,
       "name": "Ramos Exclusivo - Modelo 58",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.03 (1).jpeg"
     },
     {
-      "id": 345,
+      "id": 349,
       "name": "Ramos Hermoso - Modelo 59",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.03.jpeg"
     },
     {
-      "id": 346,
+      "id": 350,
       "name": "Ramos Especial - Modelo 60",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.04 (1).jpeg"
     },
     {
-      "id": 347,
+      "id": 351,
       "name": "Ramos Personalizado - Modelo 61",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.04.jpeg"
     },
     {
-      "id": 348,
+      "id": 352,
       "name": "Ramos Moderno - Modelo 62",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.05 (1).jpeg"
     },
     {
-      "id": 349,
+      "id": 353,
       "name": "Ramos Elegante - Modelo 63",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.05.jpeg"
     },
     {
-      "id": 350,
+      "id": 354,
       "name": "Ramos Premium - Modelo 64",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.06 (1).jpeg"
     },
     {
-      "id": 351,
+      "id": 355,
       "name": "Ramos Exclusivo - Modelo 65",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.06.jpeg"
     },
     {
-      "id": 352,
+      "id": 356,
       "name": "Ramos Hermoso - Modelo 66",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.07.jpeg"
     },
     {
-      "id": 353,
+      "id": 357,
       "name": "Ramos Especial - Modelo 67",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.08 (1).jpeg"
     },
     {
-      "id": 354,
+      "id": 358,
       "name": "Ramos Personalizado - Modelo 68",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.08.jpeg"
     },
     {
-      "id": 355,
+      "id": 359,
       "name": "Ramos Moderno - Modelo 69",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.09.jpeg"
     },
     {
-      "id": 356,
+      "id": 360,
       "name": "Ramos Elegante - Modelo 70",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.10 (1).jpeg"
     },
     {
-      "id": 357,
+      "id": 361,
       "name": "Ramos Premium - Modelo 71",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.10.jpeg"
     },
     {
-      "id": 358,
+      "id": 362,
       "name": "Ramos Exclusivo - Modelo 72",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.11 (1).jpeg"
     },
     {
-      "id": 359,
+      "id": 363,
       "name": "Ramos Hermoso - Modelo 73",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.11.jpeg"
     },
     {
-      "id": 360,
+      "id": 364,
       "name": "Ramos Especial - Modelo 74",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.12 (1).jpeg"
     },
     {
-      "id": 361,
+      "id": 365,
       "name": "Ramos Personalizado - Modelo 75",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.12.jpeg"
     },
     {
-      "id": 362,
+      "id": 366,
       "name": "Ramos Moderno - Modelo 76",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.13.jpeg"
     },
     {
-      "id": 363,
+      "id": 367,
       "name": "Ramos Elegante - Modelo 77",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.14 (1).jpeg"
     },
     {
-      "id": 364,
+      "id": 368,
       "name": "Ramos Premium - Modelo 78",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.14.jpeg"
     },
     {
-      "id": 365,
+      "id": 369,
       "name": "Ramos Exclusivo - Modelo 79",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.15 (1).jpeg"
     },
     {
-      "id": 366,
+      "id": 370,
       "name": "Ramos Hermoso - Modelo 80",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.15.jpeg"
     },
     {
-      "id": 367,
+      "id": 371,
       "name": "Ramos Especial - Modelo 81",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.16 (1).jpeg"
     },
     {
-      "id": 368,
+      "id": 372,
       "name": "Ramos Personalizado - Modelo 82",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.16.jpeg"
     },
     {
-      "id": 369,
+      "id": 373,
       "name": "Ramos Moderno - Modelo 83",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.17.jpeg"
     },
     {
-      "id": 370,
+      "id": 374,
       "name": "Ramos Elegante - Modelo 84",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.18 (1).jpeg"
     },
     {
-      "id": 371,
+      "id": 375,
       "name": "Ramos Premium - Modelo 85",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.18.jpeg"
     },
     {
-      "id": 372,
+      "id": 376,
       "name": "Ramos Exclusivo - Modelo 86",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.19 (1).jpeg"
     },
     {
-      "id": 373,
+      "id": 377,
       "name": "Ramos Hermoso - Modelo 87",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.19.jpeg"
     },
     {
-      "id": 374,
+      "id": 378,
       "name": "Ramos Especial - Modelo 88",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.20 (1).jpeg"
     },
     {
-      "id": 375,
+      "id": 379,
       "name": "Ramos Personalizado - Modelo 89",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.20.jpeg"
     },
     {
-      "id": 376,
+      "id": 380,
       "name": "Ramos Moderno - Modelo 90",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.21.jpeg"
     },
     {
-      "id": 377,
+      "id": 381,
       "name": "Ramos Elegante - Modelo 91",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.22 (1).jpeg"
     },
     {
-      "id": 378,
+      "id": 382,
       "name": "Ramos Premium - Modelo 92",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.22.jpeg"
     },
     {
-      "id": 379,
+      "id": 383,
       "name": "Ramos Exclusivo - Modelo 93",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.23 (1).jpeg"
     },
     {
-      "id": 380,
+      "id": 384,
       "name": "Ramos Hermoso - Modelo 94",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.23.jpeg"
     },
     {
-      "id": 381,
+      "id": 385,
       "name": "Ramos Especial - Modelo 95",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.24.jpeg"
     },
     {
-      "id": 382,
+      "id": 386,
       "name": "Ramos Personalizado - Modelo 96",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.25 (1).jpeg"
     },
     {
-      "id": 383,
+      "id": 387,
       "name": "Ramos Moderno - Modelo 97",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.25.jpeg"
     },
     {
-      "id": 384,
+      "id": 388,
       "name": "Ramos Elegante - Modelo 98",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.14.26.jpeg"
     },
     {
-      "id": 385,
+      "id": 389,
       "name": "Ramos Premium - Modelo 99",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.27.11.jpeg"
     },
     {
-      "id": 386,
+      "id": 390,
       "name": "Ramos Exclusivo - Modelo 100",
       "price": "Consultar al WhatsApp",
       "image": "/Decoraciones/DECORACION/RAMOS/WhatsApp Image 2026-04-18 at 20.29.54.jpeg"
